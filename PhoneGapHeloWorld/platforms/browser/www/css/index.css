@@ -1,0 +1,38 @@
+.nav {
+    max-width: 100vw;
+
+}
+
+
+
+.nav-item a{
+    border: black thick;
+    width: 25%;
+
+}
+
+#navbar {
+    background-color: grey;
+}
+
+#navrow {
+    background-color: grey;
+    height: 9vh
+}
+
+.nav-item {
+    list-style-position:inside;
+    border: 1px solid black;
+    width: 25vw
+
+}
+
+ul.nav li a {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    font-size: 25%;
+    color: white;
+    text-align: center;
+}
+
