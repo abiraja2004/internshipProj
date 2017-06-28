@@ -5,6 +5,10 @@ from rest_framework import status
 import CommitsSetupforFusion
 import GithubGo
 import starsSetupforFusion
+import StarsHistoryForFusion
+import nltkclfpickle
+
+
 
 
 # Create your views here.
@@ -30,8 +34,26 @@ class commitData(APIView):
     def post(self, request):
         print "Post called"
         data = request.data
+        fusionData = {}
         repo = GithubGo.searchRepos(query=data['company'], sort='stars')
-        fusionData = starsSetupforFusion.convertData(repo)
+        fusionData['stars'] = starsSetupforFusion.convertData(repo)
+        fusionData['starshistory'] = StarsHistoryForFusion.convertData(repo)
         return Response(fusionData)
+
+class tweetclf(APIView):
+    def get(self,request):
+        pass
+
+    def post(self, request):
+        data = request.data
+        headline = data['headline']
+        prob, label = nltkclfpickle.hamorspam(headline)
+        json = {}
+        json['prob'] = prob
+        json['label'] = label
+        return Response(json)
+
+
+
 
 

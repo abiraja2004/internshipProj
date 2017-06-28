@@ -1,6 +1,11 @@
 
 document.addEventListener('deviceready', onDeviceReady, false);
 
+function onDeviceReady(){
+     console.log("Device Ready")
+    };
+
+
 var searchApp = angular.module('searchApp', []);
 
     searchApp.controller('searchCtrl', ['$scope', '$http', function ($scope) {
@@ -15,7 +20,7 @@ var searchApp = angular.module('searchApp', []);
                         console.log(JSON.parse(xhr.responseText));
                     }
                 };
-                xhr.open('POST', 'http://acec6fed.ngrok.io/api/', true);
+                xhr.open('POST', ' http://acec6fed.ngrok.io/api/', true);
                 xhr.setRequestHeader("Content-Type", "application/json");
                 xhr.send(JSON.stringify({"companyName": $('#companyName').val(),
                                          "role": $('#role').val(),
@@ -41,9 +46,9 @@ var searchApp = angular.module('searchApp', []);
     }]);
 
 
-function onDeviceReady(){
 
-};
+
+
 
 
 

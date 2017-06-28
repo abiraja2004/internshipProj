@@ -36,3 +36,11 @@ ul.nav li a {
     text-align: center;
 }
 
+.container {
+    max-width: 100vw;
+}
+
+#commitChart {
+    display: block;
+    text-align: center;
+}
