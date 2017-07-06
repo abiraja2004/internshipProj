@@ -4,9 +4,15 @@ from rest_framework.response import Response
 from rest_framework import status
 import CommitsSetupforFusion
 import GithubGo
-import starsSetupforFusion
+import totalStarsSetupforFusion
 import StarsHistoryForFusion
 import nltkclfpickle
+import starhistorybenchmarks
+import starHistoryforFusionmultiline
+import topContribsFollowersforFusion
+
+
+
 
 
 
@@ -36,8 +42,14 @@ class commitData(APIView):
         data = request.data
         fusionData = {}
         repo = GithubGo.searchRepos(query=data['company'], sort='stars')
-        fusionData['stars'] = starsSetupforFusion.convertData(repo)
-        fusionData['starshistory'] = StarsHistoryForFusion.convertData(repo)
+        # print repo
+        # fusionData['totalstars'] = totalStarsSetupforFusion.convertData(repo)
+        # fusionData['commit52'] = CommitsSetupforFusion.convertData(repo)
+        # fusionData['starshistory'] = StarsHistoryForFusion.convertData(repo)
+        # fusionData['starshistory'] = starHistoryforFusionmultiline.convertData(repo)
+        fusionData['benchmarks'] = starhistorybenchmarks.getStarHistoryBenchmarks()
+        fusionData['topContribFollowers'] = topContribsFollowersforFusion.convertData(repo)
+
         return Response(fusionData)
 
 class tweetclf(APIView):
@@ -47,13 +59,40 @@ class tweetclf(APIView):
     def post(self, request):
         data = request.data
         headline = data['headline']
-        prob, label = nltkclfpickle.hamorspam(headline)
-        json = {}
-        json['prob'] = prob
-        json['label'] = label
+        json = nltkclfpickle.hamorspam(headline)
         return Response(json)
 
 
+class commit52(APIView):
+    def get(self, request):
+        pass
 
+    def post(self, request):
+        data = request.data
+        fusionData = {}
+        repo = GithubGo.searchRepos(query=data['company'], sort='stars')
+        fusionData['commit52'] = CommitsSetupforFusion.convertData(repo)
+        return Response(fusionData)
 
+class starGrowth(APIView):
+    def get(self, request):
+        pass
+
+    def post(self, request):
+        data = request.data
+        fusionData = {}
+        repo = GithubGo.searchRepos(query=data['company'], sort='stars')
+        fusionData['starshistory'] = starHistoryforFusionmultiline.convertData(repo)
+        return Response(fusionData)
+
+class totalStars(APIView):
+    def get(self, request):
+        pass
+
+    def post(self, request):
+        data = request.data
+        fusionData = {}
+        repo = GithubGo.searchRepos(query=data['company'], sort='stars')
+        fusionData['totalStars'] = totalStarsSetupforFusion.convertData(repo)
+        return Response(fusionData)
 

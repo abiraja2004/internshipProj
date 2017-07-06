@@ -10,7 +10,7 @@ oauthString = 'client_id={}&client_secret={}'.format(client_id, client_secret)
 baseurl = 'https://api.github.com/'
 
 def searchRepos(query, **kwargs):
-    url = baseurl + 'search/repositories'
+    url = baseurl + 'search/repositories?' + oauthString
     params = {'q': query}
     for k in kwargs:
         params[k] = kwargs[k]
@@ -44,15 +44,39 @@ def getStargazerCount(repo):
 # gets last year of commits
 def getCommitActivity(repo):
     repo = repo['items'][0]['full_name']
-    url = baseurl + 'repos/{}/stats/commit_activity'.format(repo)
+    url = baseurl + 'repos/{}/stats/commit_activity?'.format(repo) + oauthString
     r = requests.get(url)
     return r.json()
 
 def getContributors(repo):
-    repo = repo['items'][0]['full_name']
-    url = baseurl + 'repos/{}/stats/contributors'.format(repo)
+    try:
+        repo = repo['items'][0]['full_name']
+    except:
+        repo = repo
+    url = baseurl + 'repos/{}/stats/contributors?'.format(repo) + oauthString
     r = requests.get(url)
     return r.json()
+
+def getUser(user):
+    url = baseurl + 'users/{}?'.format(user) + oauthString
+    r = requests.get(url)
+    return r.json()
+
+def topContribsFollowers(repo):
+    contribs = []
+    for c in getContributors(repo):
+        contribs.append({'author': c['author']['login'], 'total': c['total']})
+
+    df = pd.DataFrame.from_dict(contribs)
+    df = df.sort_values('total', ascending=False).head(5)
+    # print df
+    totalFollowers = 0
+    for x in df.author:
+        # print x
+        followers = getUser(x)['followers']
+        totalFollowers += followers
+
+    return totalFollowers
 
 
 

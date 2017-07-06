@@ -7,10 +7,9 @@
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
     <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
     <!--<meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />-->
-    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' http://* 'unsafe-inline'; script-src 'self' http://* 'unsafe-inline' 'unsafe-eval'" />
+
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
-    <script src="js/bower_components/fusioncharts/fusioncharts.js"></script>
-    <script src="js/angular-fusioncharts.min.js"></script>
+
 
 
 
@@ -22,17 +21,20 @@
     <title>Github</title>
 </head>
 
-<body ng-app="ghubApp">
+<body>
+<div ng-app="ghubApp">
 <div ng-controller="ghubCtrl">
-    <div class="container">
+
+
+    <div class="container" style="width: 100%">
         <div class="row">
             <form ng-model="searchForm" ng-submit="submitSearch()">
                  <div class="form-group row">
-                     <label class="col-sm-2 col-form-label"></label>
+
                      <div class="col-sm-10">
                         <input id="companyName" class="form-control" type="text" placeholder="Company Name">
                      </div>
-                </div>
+                 </div>
             </form>
         </div>
 
@@ -41,9 +43,9 @@
 
 <!--    Commit Chart Starts  -->
 
-<div id="commitChart" class="mx-auto p-5">
-
-
+<div id="chartsdiv"  style="width:100%">
+<div class="row mx-auto" style="width:100%"><fusioncharts max-height="400" width="80%" type="line" datasource="{{myDataSource}}"></fusioncharts></div>
+<div class="row mx-auto"><fusioncharts max-height="400" width="100%" type="line" datasource="{{commit52}}"></fusioncharts></div>
 </div>
 <!--    Container Ends -->
     </div>
@@ -55,14 +57,14 @@
     <ul class="nav">
 
   <li class="nav-item ">
-    <a class="nav-link active" href="index.html">Competitive Analysis</a>
+    <a class="nav-link active" href="index.html"><img style="max-width: 100%; max-height: 100% " src="img/crosshairIcon.png"></a>
   </li>
 
   <li class="nav-item">
-    <a class="nav-link" href="Ghub.html">Ghub</a>
+    <a class="nav-link" href="Ghub.html"><img style="max-width: 100%; max-height: 100%" src="img/githubIcon.png"></a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="View3.html">Headline</a>
+    <a class="nav-link" href="View3.html"><img style="max-height: 100%; max-width: 100%" src="img/newsIcon.png"> </a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="#">Link</a>
@@ -70,13 +72,19 @@
 </ul>
 
 </div>
-</body>
+    </div>
+
 <script type="text/javascript" src="cordova.js"></script>
 <script type="text/javascript" src="js/ghub.js"></script>
+    <script type="text/javascript">
+        app.initialize();
+    </script>
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-
+    <script src="js/bower_components/fusioncharts/fusioncharts.js"></script>
+    <script src="js/angular-fusioncharts.min.js"></script>
+    </body>
 </html>

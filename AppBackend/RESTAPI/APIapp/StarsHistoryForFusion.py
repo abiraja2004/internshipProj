@@ -1,6 +1,9 @@
 import GithubGo
 import datetime
 import pandas as pd
+import starhistorybenchmarks
+
+
 
 def convertData(repo):
     # repo = repo['items'][0]['full_name']
@@ -8,7 +11,7 @@ def convertData(repo):
     firstCreated = ''
     currentStars = 0
     dosYearsOfStars = []
-    numberOfPages = iter(range(1, 150))
+    numberOfPages = iter(range(1, 300))
     for p in numberOfPages:
         print p
         stars = GithubGo.getStargazers(repo, p)
@@ -48,37 +51,37 @@ def convertData(repo):
 
 
             # stars.to_csv('/Users/Hallshit/Documents/GithubAPITests/samplestargazers.csv')
-            fusionChart = {}
-            fusionChart['chart'] = {"caption": "{} Star Growth".format(repo['items'][0]['full_name']),
-            "subCaption": "First two years",
-            "xAxisName": "Date",
-            "yAxisName": "Stars",
+    fusionChart = {}
+    fusionChart['chart'] = {"caption": "{} Star Growth".format(repo['items'][0]['full_name']),
+    "subCaption": "First two years",
+    "xAxisName": "Date",
+    "yAxisName": "Stars",
 
-            "lineThickness": "2",
-            "paletteColors": "#0075c2",
-            "baseFontColor": "#333333",
-            "baseFont": "Helvetica Neue,Arial",
-            "captionFontSize": "14",
-            "subcaptionFontSize": "14",
-            "subcaptionFontBold": "0",
-            "showBorder": "0",
-            "bgColor": "#ffffff",
-            "showShadow": "0",
-            "canvasBgColor": "#ffffff",
-            "canvasBorderAlpha": "0",
-            "divlineAlpha": "100",
-            "divlineColor": "#999999",
-            "divlineThickness": "1",
-            "divLineIsDashed": "1",
-            "divLineDashLen": "1",
-            "divLineGapLen": "1",
-            "showXAxisLine": "1",
-            "xAxisLineThickness": "1",
-            "xAxisLineColor": "#999999",
-            "showAlternateHGridColor": "0",
-            "labelDisplay": "auto",
-            "slantLabels": "1"
-            # "labelStep": "150",
+    "lineThickness": "2",
+    "paletteColors": "#0075c2",
+    "baseFontColor": "#333333",
+    "baseFont": "Helvetica Neue,Arial",
+    "captionFontSize": "14",
+    "subcaptionFontSize": "14",
+    "subcaptionFontBold": "0",
+    "showBorder": "0",
+    "bgColor": "#ffffff",
+    "showShadow": "0",
+    "canvasBgColor": "#ffffff",
+    "canvasBorderAlpha": "0",
+    "divlineAlpha": "100",
+    "divlineColor": "#999999",
+    "divlineThickness": "1",
+    "divLineIsDashed": "1",
+    "divLineDashLen": "1",
+    "divLineGapLen": "1",
+    "showXAxisLine": "1",
+    "xAxisLineThickness": "1",
+    "xAxisLineColor": "#999999",
+    "showAlternateHGridColor": "0",
+    "labelDisplay": "auto",
+    "slantLabels": "1"
+    # "labelStep": "150",
 
 }
     df = pd.DataFrame(data=dosYearsOfStars)
@@ -90,6 +93,7 @@ def convertData(repo):
     df['label'] = df.index
     df['label'] = df['label'].apply(lambda x: datetime.datetime.strftime(x, format='%m-%Y'))
     starhistory = df.to_dict(orient='records')
+
     fusionChart['data'] = starhistory
     return fusionChart
 

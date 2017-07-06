@@ -1,9 +1,40 @@
 
-document.addEventListener('deviceready', onDeviceReady, false);
+// app.initialize();
 
-function onDeviceReady(){
-     console.log("Device Ready")
-    };
+
+var app = {
+    // Application Constructor
+    initialize: function() {
+        this.bindEvents();
+    },
+    // Bind Event Listeners
+    //
+    // Bind any events that are required on startup. Common events are:
+    // 'load', 'deviceready', 'offline', and 'online'.
+    bindEvents: function() {
+        document.addEventListener('deviceready', this.onDeviceReady, false);
+    },
+    // deviceready Event Handler
+    //
+    // The scope of 'this' is the event. In order to call the 'receivedEvent'
+    // function, we must explicitly call 'app.receivedEvent(...);'
+    onDeviceReady: function() {
+        app.receivedEvent('deviceready');
+    },
+    // Update DOM on a Received Event
+    receivedEvent: function(id) {
+        var parentElement = document.getElementById(id);
+        var listeningElement = parentElement.querySelector('.listening');
+        var receivedElement = parentElement.querySelector('.received');
+
+        listeningElement.setAttribute('style', 'display:none;');
+        receivedElement.setAttribute('style', 'display:block;');
+
+        console.log('Received Event: ' + id);
+    }
+
+};
+
 
 
 var searchApp = angular.module('searchApp', []);
@@ -20,7 +51,7 @@ var searchApp = angular.module('searchApp', []);
                         console.log(JSON.parse(xhr.responseText));
                     }
                 };
-                xhr.open('POST', ' http://acec6fed.ngrok.io/api/', true);
+                xhr.open('POST', 'http://ff3e99ad.ngrok.io/api/', true);
                 xhr.setRequestHeader("Content-Type", "application/json");
                 xhr.send(JSON.stringify({"companyName": $('#companyName').val(),
                                          "role": $('#role').val(),
