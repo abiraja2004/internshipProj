@@ -12,17 +12,16 @@
 }
 
 #navbar {
-    background-color: grey;
+    background-color: #f7fcfc;
 }
 
 #navrow {
-    background-color: grey;
+    background-color:  #f7fcfc;
     height: 9vh
 }
 
 .nav-item {
     list-style-position:inside;
-    border: 1px solid black;
     width: 25vw
 
 }
@@ -36,3 +35,9 @@ ul.nav li a {
     text-align: center;
 }
 
+body {
+    height: 100vh;
+    background: linear-gradient(#7b97c4, white);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}

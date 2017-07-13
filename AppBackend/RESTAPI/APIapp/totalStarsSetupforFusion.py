@@ -46,6 +46,21 @@ benchmarks = [{'name': 'tensorflow/tensorflow',
                 {'name': 'mongodb/mongo',
                 'stars': 5000,
                 'years': 5},
+               {"name": 'django/django',
+                'stars': 5280,
+                'years': 1},
+                {"name": 'django/django',
+                'stars': 8850,
+                'years': 2},
+                {"name": 'django/django',
+                'stars': 12390,
+                'years': 3},
+                {"name": 'django/django',
+                'stars': 17730,
+                'years': 4},
+                {"name": 'django/django',
+                'stars': 24870,
+                'years': 5}
 ]
 
 def convertData(repo):
@@ -64,7 +79,8 @@ def convertData(repo):
     fusionData['chart'] = {
                "caption": "Total Stars",
                "subCaption": "after {} years".format(years),
-               "theme": "fint"
+               # "theme": "zune"
+               "bgcolor": "#ffffff",
            }
     fusionData['data'] = [{'label': name,
                            'value': stars}]

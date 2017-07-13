@@ -10,6 +10,8 @@ import nltkclfpickle
 import starhistorybenchmarks
 import starHistoryforFusionmultiline
 import topContribsFollowersforFusion
+import TextSummaryEngine
+import GithubScrapeTrending
 
 
 
@@ -42,11 +44,6 @@ class commitData(APIView):
         data = request.data
         fusionData = {}
         repo = GithubGo.searchRepos(query=data['company'], sort='stars')
-        # print repo
-        # fusionData['totalstars'] = totalStarsSetupforFusion.convertData(repo)
-        # fusionData['commit52'] = CommitsSetupforFusion.convertData(repo)
-        # fusionData['starshistory'] = StarsHistoryForFusion.convertData(repo)
-        # fusionData['starshistory'] = starHistoryforFusionmultiline.convertData(repo)
         fusionData['benchmarks'] = starhistorybenchmarks.getStarHistoryBenchmarks()
         fusionData['topContribFollowers'] = topContribsFollowersforFusion.convertData(repo)
 
@@ -95,4 +92,42 @@ class totalStars(APIView):
         repo = GithubGo.searchRepos(query=data['company'], sort='stars')
         fusionData['totalStars'] = totalStarsSetupforFusion.convertData(repo)
         return Response(fusionData)
+
+class summarizerEngine(APIView):
+    def get(self, request):
+        pass
+
+    def post(self, request):
+        data = request.data
+        url = data["url"]
+        print data
+        returnData = {}
+        text = TextSummaryEngine.getTextFromURL(url)
+        wCloud = TextSummaryEngine.convertToWordCloud(text)
+        # print wCloud
+        returnData['wCloud'] = wCloud
+        returnData['summaries'] = []
+        returnData['summaries'].append({'sumySummary': TextSummaryEngine.sumySummarize(url)})
+        returnData['summaries'].append({'algortithmiaSummary': TextSummaryEngine.algorithmiaSummarizer(text)})
+        returnData['summaries'].append({'nltkSummary': TextSummaryEngine.nltkSummarize(text)})
+
+
+
+        return Response(returnData)
+
+class ghubTrending(APIView):
+    def get(self, request):
+        trending = GithubScrapeTrending.scrapeTrending()
+        returnData = {}
+        returnData['trending'] = GithubScrapeTrending.setupTrendingDict()
+        return Response(returnData)
+
+
+
+    def post(self, request):
+        pass
+
+
+
+
 

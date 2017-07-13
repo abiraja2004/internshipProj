@@ -25,5 +25,7 @@ urlpatterns = [
     url(r'^api/commitData', views.commit52.as_view()),
     url(r'^api/starGrowth', views.starGrowth.as_view()),
     url(r'^api/totalStars', views.totalStars.as_view()),
+    url(r'^api/summarizerEngine', views.summarizerEngine.as_view()),
+    url(r'^api/ghubtrending', views.ghubTrending.as_view()),
 
 ]

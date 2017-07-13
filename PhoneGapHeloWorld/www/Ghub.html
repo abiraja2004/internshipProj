@@ -7,7 +7,7 @@
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
     <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
     <!--<meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />-->
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
 
 
@@ -27,27 +27,55 @@
 
 
     <div class="container" style="width: 100%">
+    <div class="container">
         <div class="row">
-            <form ng-model="searchForm" ng-submit="submitSearch()">
+
+            <form class="pt-5" style="width: 100%" ng-model="searchForm" ng-submit="submitSearch(companyName)">
                  <div class="form-group row">
 
                      <div class="col-sm-10">
-                        <input id="companyName" class="form-control" type="text" placeholder="Company Name">
+                        <input id="companyName" ng-model="companyName" class="form-control" name="companyName" type="text" placeholder="Company Name">
                      </div>
                  </div>
             </form>
         </div>
+    </div>
+
+    <p class="text-center mx-auto" ng-hide="loaderHide">
+        <i class="fa fa-spinner fa-spin" style="font-size:36px"></i>
+    </p>
 
 
+<!-- Github trending recommendations -->
+
+<div class="container animate-hide" ng-repeat="repo in trendingData" ng-hide="trendingHide">
+    <a ng-click="submitSearch(repo.repo)">
+    <div class="container mt-2 repoContainer">
+        <div class="outer-triangle"></div>
+
+            <p class="repoHeader">{{ repo.repo }}</p>
+            <p class="repoDescription">{{ repo.description }}</p>
+            <div class="tags">
+                <p class="d-inline" ng-repeat="(key, value) in repo.tags | limitTo: tagLimit">{{ value[0] | limitTo: 15 }} | </p>
+                <p class="d-inline"> &#x2606 {{ repo.stars }}</p>
+            </div>
+
+        </div>
+    </a>
+    </div>
+</div>
 
 
 <!--    Commit Chart Starts  -->
 
-<div id="chartsdiv"  style="width:100%">
-<div class="row mx-auto" style="width:100%"><fusioncharts max-height="400" width="80%" type="line" datasource="{{myDataSource}}"></fusioncharts></div>
-<div class="row mx-auto"><fusioncharts max-height="400" width="100%" type="line" datasource="{{commit52}}"></fusioncharts></div>
+<div id="chartsdiv" class="pb-5"  style="width:100%">
+<!--<div class="row mx-auto" style="width:100%"><fusioncharts max-height="400" width="80%" type="line" datasource="{{myDataSource}}"></fusioncharts></div>
+<div class="row mx-auto"><fusioncharts max-height="400" width="100%" type="line" datasource="{{commit52}}"></fusioncharts></div>-->
 </div>
+        <br>
+        <br>
 <!--    Container Ends -->
+
     </div>
 
 
@@ -57,17 +85,17 @@
     <ul class="nav">
 
   <li class="nav-item ">
-    <a class="nav-link active" href="index.html"><img style="max-width: 100%; max-height: 100% " src="img/crosshairIcon.png"></a>
+    <a class="nav-link active" href="index.html"><img style="max-width: 90%; max-height: 90% " src="img/crosshairIcon.png"></a>
   </li>
 
   <li class="nav-item">
     <a class="nav-link" href="Ghub.html"><img style="max-width: 100%; max-height: 100%" src="img/githubIcon.png"></a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="View3.html"><img style="max-height: 100%; max-width: 100%" src="img/newsIcon.png"> </a>
+    <a class="nav-link" href="View3.html"><img style="max-height: 95%; max-width: 95%" src="img/newsIcon.png"> </a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
+    <a class="nav-link" href="SummaryEngine.html">Link</a>
   </li>
 </ul>
 
@@ -76,9 +104,9 @@
 
 <script type="text/javascript" src="cordova.js"></script>
 <script type="text/javascript" src="js/ghub.js"></script>
-    <script type="text/javascript">
+ <!--   <script type="text/javascript">
         app.initialize();
-    </script>
+    </script>-->
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>

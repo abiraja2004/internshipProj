@@ -26,7 +26,7 @@
     <title>Hello World</title>
 </head>
 
-<body>
+<body style="background-color: #b8eaed">
     <div ng-app="searchApp">
     <!--Controller Begins-->
     <div ng-controller="searchCtrl">
@@ -69,7 +69,7 @@
             </div>
 
 
-            <div class="form-group row" ng-repeat="f in selectedFilters">
+            <div class="form-group row" ng-repeat="f in selectedFilters" ng-hide="filterhide">
                  <label class="col-sm-2 col-form-label"></label>
                  <div class="col-sm-10">
                     <input id="{{f}}" class="form-control" type="text" placeholder="{{f}}">
@@ -96,21 +96,19 @@
     <ul class="nav">
 
   <li class="nav-item ">
-    <a class="nav-link active" href="index.html">Competitive Analysis</a>
+    <a class="nav-link active" href="index.html"><img style="max-width: 100%; max-height: 100% " src="img/crosshairIcon.png"></a>
   </li>
 
   <li class="nav-item">
-    <a class="nav-link" href="Ghub.html">Ghub</a>
+    <a class="nav-link" href="Ghub.html"><img style="max-width: 100%; max-height: 100%" src="img/githubIcon.png"></a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="View3.html">Link</a>
+    <a class="nav-link" href="View3.html"><img style="max-height: 100%; max-width: 100%" src="img/newsIcon.png"> </a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
+    <a class="nav-link" href="SummaryEngine.html">Link</a>
   </li>
 </ul>
-
-
 
 </div>
 

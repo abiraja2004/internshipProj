@@ -61,7 +61,7 @@ def convertData(repo):
         "captionFontSize": "14",
         "subcaptionFontSize": "14",
         "subcaptionFontBold": "0",
-        "paletteColors": "#0075c2,#1aaf5d,#ff0000,#ff6600",
+        "paletteColors": "#0075c2,#1aaf5d,#ff0000,#ff6600,#42d7f4",
         "bgcolor": "#ffffff",
         "showBorder": "0",
         "showShadow": "0",
@@ -148,6 +148,8 @@ def convertData(repo):
     fusionChart['dataset'].append(starhistorybenchmarks.msangular)
     fusionChart['dataset'].append(starhistorybenchmarks.msmongodb)
     fusionChart['dataset'].append(starhistorybenchmarks.mswordpress)
+    fusionChart['dataset'].append(starhistorybenchmarks.msdjango)
+
 
     # fusionChart['trendlines'] = [ {
     #         "line": [

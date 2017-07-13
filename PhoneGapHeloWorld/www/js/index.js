@@ -44,6 +44,7 @@ var searchApp = angular.module('searchApp', []);
         $scope.selectedFilters = [];
 
         // Send search criteria
+        $scope.filterhide = "true";
         $scope.submitSearch = function() {
             var xhr = new XMLHttpRequest();
             xhr.onreadystatechange = function() {
@@ -63,6 +64,7 @@ var searchApp = angular.module('searchApp', []);
         };
         // Adds new filters
         $scope.filterSelect = function (x) {
+            $scope.filterhide = "false";
             if ($.inArray(x, $scope.selectedFilters)> -1){
                 console.log("Filter already chosen")
             }else {

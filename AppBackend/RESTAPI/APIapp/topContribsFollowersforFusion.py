@@ -10,7 +10,8 @@ def convertData(repo):
     fusionData['chart'] = {
         "caption": "Top 5 Contributors Follower Count",
         "subCaption": "%s" % repo['items'][0]['full_name'],
-        "theme": "fint"
+        # "theme": "ocean"
+        "bgcolor": "#ffffff",
     }
     fusionData['data'] = [{'label': repo['items'][0]['full_name'],
                            'value': followers}]
