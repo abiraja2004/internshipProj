@@ -5,7 +5,9 @@ APPBACKEND - Holds the Django API framework
 ======================================================================================
 
   url routes located in RESTAPI/RESTAPI/urls.py
+
   views are located in RESTAPI/APIapp/views.py
+
   views lead to other .py files in same directory
 
 
@@ -31,6 +33,7 @@ Clicking on one of trending repo or searching for repo displays 4 charts:
 
 
 ///// ALL CHARTS ARE MADE USING FUSIONCHARTS.JS for angular /////////
+
 docs: http://www.fusioncharts.com/angularjs-charts/
 
 #### 52 week Commit activity line graph
@@ -164,11 +167,9 @@ ghub.html = github analysis view
 css: css/ghub.css
 
 js: js/ghub.js
-   dependencies:
-
-        fusioncharts for angular - docs: http://www.fusioncharts.com/angularjs-charts/#/demos/ex1
-
-        located in js/bower_components
+* dependencies:
+- fusioncharts for angular - docs: http://www.fusioncharts.com/angularjs-charts/#/demos/ex1
+- located in js/bower_components
 
 
 
@@ -177,7 +178,8 @@ Headline.html = test page for Oscar's Ham/spam
 ----------------------------------------------
 css: headline.css
 js: js/headline.js
-    dependencies: None yet
+* dependencies:
+    - None yet
 
 
 SummaryEngine.html = Company main page summarizer
@@ -185,9 +187,9 @@ SummaryEngine.html = Company main page summarizer
 css: css/SummaryEngine.css
 
 js: js/summaryEngine.js
-    dependencies:
-        wordCloud2.js - docs at github: https://github.com/timdream/wordcloud2.js/
-        located in js/
+* dependencies:
+    - wordCloud2.js - docs at github: https://github.com/timdream/wordcloud2.js/
+    - located in js/
 
 
 
