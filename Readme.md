@@ -92,7 +92,7 @@ Summary Engine view (tab4)
 
 * route = "api/summarizerEngine/"
 
-* view = views.py/summarizerEngine
+* view = [views.py/summarizerEngine](https://github.com/Knowledgevc-org/ios/blob/master/AppBackend/RESTAPI/APIapp/views.py)
 
 * View sends data to TextSummaryEngine.py which will return 3 different summaries and word cloud data:
 
@@ -100,17 +100,17 @@ Summary Engine view (tab4)
 
 ### Sumy (the best one imo):
 
-* python github project located at https://github.com/miso-belica/sumy
+* python github project located [here](https://github.com/miso-belica/sumy)
 
 
 ### nltk:
 
-* code found on http://glowingpython.blogspot.com/2014/09/text-summarization-with-nltk.html
+* code found [here](http://glowingpython.blogspot.com/2014/09/text-summarization-with-nltk.html)
 
 
 ### algorithmia:
 
-* docs at https://algorithmia.com/algorithms/nlp/Summarizer
+* docs [here](https://algorithmia.com/algorithms/nlp/Summarizer)
 
 ### Word Cloud
 
@@ -144,7 +144,7 @@ wordCloudList is then returned to front end for word cloud rendering
 PhoneGapHeloWorld - Holds the front end work
 ======================================================================================
 
-Only directory that matters is /www/
+Only directory that matters is [/www/](https://github.com/Knowledgevc-org/ios/tree/master/PhoneGapHeloWorld/www)
 Here you'll find all the html, css and javascript files, as well as any dependencies
 
 Note on js for phonegap:
