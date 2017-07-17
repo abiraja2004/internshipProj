@@ -33,8 +33,8 @@ Clicking on one of trending repo or searching for repo displays 4 charts:
 ///// ALL CHARTS ARE MADE USING FUSIONCHARTS.JS for angular /////////
 docs: http://www.fusioncharts.com/angularjs-charts/
 
-52 week Commit activity line graph
-----------------------------------
+#### 52 week Commit activity line graph
+
 * route = "api/commmitData"
 
 * view = views.py/commit52
@@ -45,8 +45,8 @@ docs: http://www.fusioncharts.com/angularjs-charts/
 
 * Data is then parsed to format usable by fusion charts using "CommitsSetupforFusion.py"
 
-Top 5 contributors follower count bar chart
--------------------------------------------
+#### Top 5 contributors follower count bar chart
+
 * route = "api/topContribFollowers/"
 
 * view = views.py/topContribFollowerData
@@ -57,8 +57,8 @@ Top 5 contributors follower count bar chart
 
 * Data is parsed, sorted using pandas, and set up for fusioncharts in the script called "topContribsFollowersforFusion.py"
 
-Total Stars bar chart
----------------------
+#### Total Stars bar chart
+
 * route = "api/totalStars/"
 
 * view = views.py/totalStars
@@ -69,8 +69,8 @@ Total Stars bar chart
 
 * json returned provides star count and is set up for fusioncharts using "totalStarsSetupforFusion.py"
 
-Initial two year star growth multiline chart
---------------------------------------------
+#### Initial two year star growth multiline chart
+
 * route = "api/starGrowth/"
 
 * view = views.py/starGrowth
