@@ -46,7 +46,7 @@ docs: http://www.fusioncharts.com/angularjs-charts/
 
 * find docs here: https://developer.github.com/v3/repos/statistics/#get-the-last-year-of-commit-activity-data
 
-* Data is then parsed to format usable by fusion charts using "CommitsSetupforFusion.py"
+* Data is then parsed to format usable by fusion charts using [CommitsSetupforFusion.py](https://github.com/Knowledgevc-org/ios/blob/master/AppBackend/RESTAPI/APIapp/CommitsSetupforFusion.py)
 
 #### Top 5 contributors follower count bar chart
 
@@ -70,7 +70,7 @@ docs: http://www.fusioncharts.com/angularjs-charts/
 
 * find docs here: https://developer.github.com/v3/search/#search-repositories
 
-* json returned provides star count and is set up for fusioncharts using "totalStarsSetupforFusion.py"
+* json returned provides star count and is set up for fusioncharts using [totalStarsSetupforFusion.py](https://github.com/Knowledgevc-org/ios/blob/master/AppBackend/RESTAPI/APIapp/totalStarsSetupforFusion.py)
 
 #### Initial two year star growth multiline chart
 
@@ -82,7 +82,7 @@ docs: http://www.fusioncharts.com/angularjs-charts/
 
 * find docs here: https://developer.github.com/v3/activity/starring/#list-stargazers
 
-* Most complicated chart so I will add additional documentation to the "starHistoryforFusionmultiline.py"
+* Most complicated chart so I will add additional documentation to the [starHistoryforFusionmultiline.py](https://github.com/Knowledgevc-org/ios/blob/master/AppBackend/RESTAPI/APIapp/starHistoryforFusionmultiline.py)
 to explain how data is obtained and parsed for fusionCharts
 
 
