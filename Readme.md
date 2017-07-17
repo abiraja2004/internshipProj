@@ -23,8 +23,8 @@ On startup: shows a trending repository feed that is scraped using beautifulSoup
     script is located in APIapp/GithubScrapeTrending.py
 
 
-CHARTS
-=====================================
+### CHARTS
+
 
 
 Clicking on one of trending repo or searching for repo displays 4 charts:
@@ -36,6 +36,7 @@ docs: http://www.fusioncharts.com/angularjs-charts/
 52 week Commit activity line graph
 ----------------------------------
 route = "api/commmitData"
+
 view = views.py/commit52
 
 created using github api "statistics"
@@ -46,9 +47,11 @@ Data is then parsed to format usable by fusion charts using "CommitsSetupforFusi
 Top 5 contributors follower count bar chart
 -------------------------------------------
 route = "api/topContribFollowers/"
+
 view = views.py/topContribFollowerData
 
 created using github api "statistics"
+
 find docs here: https://developer.github.com/v3/repos/statistics/#get-contributors-list-with-additions-deletions-and-commit-counts
 
 Data is parsed, sorted using pandas, and set up for fusioncharts in the script called "topContribsFollowersforFusion.py"
@@ -56,9 +59,11 @@ Data is parsed, sorted using pandas, and set up for fusioncharts in the script c
 Total Stars bar chart
 ---------------------
 route = "api/totalStars/"
+
 view = views.py/totalStars
 
 created using github api "search/repositories"
+
 find docs here: https://developer.github.com/v3/search/#search-repositories
 
 json returned provides star count and is set up for fusioncharts using "totalStarsSetupforFusion.py"
@@ -69,9 +74,11 @@ route = "api/starGrowth/"
 view = views.py/starGrowth
 
 created using github api "list-stargazers"
+
 find docs here: https://developer.github.com/v3/activity/starring/#list-stargazers
 
 Most complicated chart so I will add additional documentation to the "starHistoryforFusionmultiline.py"
+
 to explain how data is obtained and parsed for fusionCharts
 
 
@@ -80,6 +87,7 @@ Summary Engine view (tab4)
 --------------------------
 
 route = "api/summarizerEngine/"
+
 view = views.py/summarizerEngine
 
 View sends data to TextSummaryEngine.py which will return 3 different summaries and word cloud data:
@@ -156,7 +164,9 @@ css: css/ghub.css
 
 js: js/ghub.js
    dependencies:
+
         fusioncharts for angular - docs: http://www.fusioncharts.com/angularjs-charts/#/demos/ex1
+
         located in js/bower_components
 
 
@@ -164,9 +174,9 @@ js: js/ghub.js
 
 Headline.html = test page for Oscar's Ham/spam
 ----------------------------------------------
-    css: headline.css
-    js: js/headline.js
-        dependencies: None yet
+css: headline.css
+js: js/headline.js
+    dependencies: None yet
 
 
 SummaryEngine.html = Company main page summarizer
