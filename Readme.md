@@ -92,13 +92,13 @@ Summary Engine view (tab4)
 
 ### Search function
 
-    * route = "api/summarizerEngine/"
+* route = "api/summarizerEngine/"
 
-    * view = [views.py/summarizerEngine](https://github.com/Knowledgevc-org/ios/blob/master/AppBackend/RESTAPI/APIapp/views.py)
+* view = [views.py/summarizerEngine](https://github.com/Knowledgevc-org/ios/blob/master/AppBackend/RESTAPI/APIapp/views.py)
 
-    * View sends data to [TextSummaryEngine.py](https://github.com/Knowledgevc-org/ios/blob/master/AppBackend/RESTAPI/APIapp/TextSummaryEngine.py) which will return 3 different summaries and word cloud data:
+* View sends data to [TextSummaryEngine.py](https://github.com/Knowledgevc-org/ios/blob/master/AppBackend/RESTAPI/APIapp/TextSummaryEngine.py) which will return 3 different summaries and word cloud data:
 
-    * url's text are scraped using beautifulSoup except for nltk which has its own html parser
+* url's text are scraped using beautifulSoup except for nltk which has its own html parser
 
 #### Sumy (the best one imo):
 
