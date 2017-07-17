@@ -34,7 +34,7 @@ Clicking on one of trending repo or searching for repo displays 4 charts:
 
 ///// ALL CHARTS ARE MADE USING FUSIONCHARTS.JS for angular /////////
 
-[Angular Fusion Charts](Documentation]http://www.fusioncharts.com/angularjs-charts/)
+[Angular Fusion Charts](http://www.fusioncharts.com/angularjs-charts/)
 
 #### 52 week Commit activity line graph
 
@@ -82,29 +82,35 @@ Clicking on one of trending repo or searching for repo displays 4 charts:
 to explain how data is obtained and parsed for fusionCharts
 
 
+Headline Ham/spam view (tab3)
+------------------------------
+Not sure whats supposed to be going on here so theres just a search bar and two labels that show ham probability and label
+
 
 Summary Engine view (tab4)
 --------------------------
 
-* route = "api/summarizerEngine/"
+### Search function
 
-* view = [views.py/summarizerEngine](https://github.com/Knowledgevc-org/ios/blob/master/AppBackend/RESTAPI/APIapp/views.py)
+    * route = "api/summarizerEngine/"
 
-* View sends data to [TextSummaryEngine.py](https://github.com/Knowledgevc-org/ios/blob/master/AppBackend/RESTAPI/APIapp/TextSummaryEngine.py) which will return 3 different summaries and word cloud data:
+    * view = [views.py/summarizerEngine](https://github.com/Knowledgevc-org/ios/blob/master/AppBackend/RESTAPI/APIapp/views.py)
 
-* url's text are scraped using beautifulSoup except for nltk which has its own html parser
+    * View sends data to [TextSummaryEngine.py](https://github.com/Knowledgevc-org/ios/blob/master/AppBackend/RESTAPI/APIapp/TextSummaryEngine.py) which will return 3 different summaries and word cloud data:
 
-### Sumy (the best one imo):
+    * url's text are scraped using beautifulSoup except for nltk which has its own html parser
+
+#### Sumy (the best one imo):
 
 * python github project located [here](https://github.com/miso-belica/sumy)
 
 
-### nltk:
+#### nltk:
 
 * code found [here](http://glowingpython.blogspot.com/2014/09/text-summarization-with-nltk.html)
 
 
-### algorithmia:
+###$ algorithmia:
 
 * docs [here](https://algorithmia.com/algorithms/nlp/Summarizer)
 
@@ -152,13 +158,15 @@ All api calls are made through XMLHttpRequest() because angular.post would not w
 
 
 
-Index.html = clearbit analysis view
+clearbit analysis view
 -----------------------------------
+html: [Index.html](https://github.com/Knowledgevc-org/ios/blob/master/PhoneGapHeloWorld/www/index.html)
+Nothing here yet since there is no clearbit account
 
 
-
-ghub.html = github analysis view
+github analysis view
 --------------------------------
+html: [ghub.html](https://github.com/Knowledgevc-org/ios/blob/master/PhoneGapHeloWorld/www/ghub.html)
 
 css: [css/ghub.css](https://github.com/Knowledgevc-org/ios/blob/master/PhoneGapHeloWorld/www/css/ghub.css)
 
@@ -170,8 +178,10 @@ js: [js/ghub.js](https://github.com/Knowledgevc-org/ios/blob/master/PhoneGapHelo
 
 
 
-Headline.html = test page for Oscar's Ham/spam
+test page for Oscar's Ham/spam
 ----------------------------------------------
+html: [Headline.html](https://github.com/Knowledgevc-org/ios/blob/master/PhoneGapHeloWorld/www/Headline.html)
+
 css: [headline.css](https://github.com/Knowledgevc-org/ios/blob/master/PhoneGapHeloWorld/www/css/headline.css)
 
 js: [js/headline.js](https://github.com/Knowledgevc-org/ios/blob/master/PhoneGapHeloWorld/www/js/headline.js)
@@ -179,8 +189,10 @@ js: [js/headline.js](https://github.com/Knowledgevc-org/ios/blob/master/PhoneGap
     - None yet
 
 
-SummaryEngine.html = Company main page summarizer
+Company main page summarizer
 -------------------------------------------------
+html: [SummaryEngine.html](https://github.com/Knowledgevc-org/ios/blob/master/PhoneGapHeloWorld/www/SummaryEngine.html)
+
 css: [css/SummaryEngine.css](https://github.com/Knowledgevc-org/ios/blob/master/PhoneGapHeloWorld/www/css/summaryEngine.css)
 
 js: [js/summaryEngine.js](https://github.com/Knowledgevc-org/ios/blob/master/PhoneGapHeloWorld/www/js/summaryEngine.js)
