@@ -2,42 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16e8378e-32d5-4f21-a6a2-9a3eeae8ed77" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/cloud icon grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/github-icon-grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/grey-newspaper-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/group-32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/headline.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Readme.md" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/crosshairIcon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/githubIcon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/newsIcon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/crosshairIcon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/githubIcon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/newsIcon.png" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/View3.html" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/Headline.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/Archive.zip" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/Archive.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/Archive.zip" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/Archive.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/competition/comp" afterPath="$PROJECT_DIR$/competition/comp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/starHistoryforFusionmultiline.py" afterPath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/starHistoryforFusionmultiline.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/views.py" afterPath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AppBackend/RESTAPI/RESTAPI/urls.py" afterPath="$PROJECT_DIR$/AppBackend/RESTAPI/RESTAPI/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/Ghub.html" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/Ghub.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/SummaryEngine.html" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/SummaryEngine.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/View3.html" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/View3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/css/ghub.css" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/css/ghub.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/css/index.css" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/css/summaryEngine.css" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/css/summaryEngine.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/index.html" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/js/SummaryEngine.js" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/js/SummaryEngine.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/Ghub.html" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/Ghub.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/SummaryEngine.html" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/SummaryEngine.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/ghub.css" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/ghub.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/index.css" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/summaryEngine.css" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/summaryEngine.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/index.html" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/SummaryEngine.js" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/SummaryEngine.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/ghub.js" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/ghub.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Readme.md" afterPath="$PROJECT_DIR$/Readme.md" />
     </list>
     <ignored path="KnowledgeVC.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -115,8 +81,8 @@
       <file leaf-file-name="Readme.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Readme.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1454">
-              <caret line="177" column="27" lean-forward="false" selection-start-line="177" selection-start-column="27" selection-end-line="177" selection-end-column="27" />
+            <state relative-caret-position="279">
+              <caret line="88" column="4" lean-forward="false" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -1336,8 +1302,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1454">
-          <caret line="177" column="27" lean-forward="false" selection-start-line="177" selection-start-column="27" selection-end-line="177" selection-end-column="27" />
+        <state relative-caret-position="279">
+          <caret line="88" column="4" lean-forward="false" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="4" />
           <folding />
         </state>
       </provider>
