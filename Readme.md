@@ -13,12 +13,12 @@ APPBACKEND - Holds the Django API framework
 
 clearbit analysis view (tab1)
 ----------------------------
-Nothing is hooked up here yet since there is no clearbit account but the code for this is located in /KnowledgeVC/competition
+Nothing is hooked up here yet since there is no clearbit account but the code for this is located in [/KnowledgeVC/competition](https://github.com/Knowledgevc-org/ios/tree/master/competition/competition)
 
 
 Github analysis view (tab2)
 ----------------------------
-* APIapp/GithubGo.py - this is main file that contains functions for github api calls (search repos, get stars, commmits, followers)
+* [APIapp/GithubGo.py](https://github.com/Knowledgevc-org/ios/blob/master/AppBackend/RESTAPI/APIapp/GithubGo.py) - this is main file that contains functions for github api calls (search repos, get stars, commmits, followers)
 
 
 * On startup: shows a trending repository feed that is scraped using beautifulSoup;
