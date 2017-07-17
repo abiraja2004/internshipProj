@@ -58,7 +58,7 @@ docs: http://www.fusioncharts.com/angularjs-charts/
 
 * find docs here: https://developer.github.com/v3/repos/statistics/#get-contributors-list-with-additions-deletions-and-commit-counts
 
-* Data is parsed, sorted using pandas, and set up for fusioncharts in the script called "topContribsFollowersforFusion.py"
+* Data is parsed, sorted using pandas, and set up for fusioncharts in the script called [topContribsFollowersforFusion.py](https://github.com/Knowledgevc-org/ios/blob/master/AppBackend/RESTAPI/APIapp/topContribsFollowersforFusion.py)
 
 #### Total Stars bar chart
 
@@ -168,8 +168,8 @@ css: css/ghub.css
 
 js: js/ghub.js
 * dependencies:
-- fusioncharts for angular - docs: http://www.fusioncharts.com/angularjs-charts/#/demos/ex1
-- located in js/bower_components
+    - fusioncharts for angular - docs: http://www.fusioncharts.com/angularjs-charts/#/demos/ex1
+    - located in js/bower_components
 
 
 
