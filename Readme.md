@@ -22,7 +22,7 @@ Github analysis view (tab2)
 
 
 * On startup: shows a trending repository feed that is scraped using beautifulSoup;
-    script is located in APIapp/GithubScrapeTrending.py
+    script is located in [APIapp/GithubScrapeTrending.py](https://github.com/Knowledgevc-org/ios/blob/master/AppBackend/RESTAPI/APIapp/GithubScrapeTrending.py)
 
 
 ### CHARTS
@@ -34,17 +34,17 @@ Clicking on one of trending repo or searching for repo displays 4 charts:
 
 ///// ALL CHARTS ARE MADE USING FUSIONCHARTS.JS for angular /////////
 
-docs: http://www.fusioncharts.com/angularjs-charts/
+[Angular Fusion Charts](Documentation]http://www.fusioncharts.com/angularjs-charts/)
 
 #### 52 week Commit activity line graph
 
 * route = "api/commmitData"
 
-* view = views.py/commit52
+* view = [views.py/commit52](https://github.com/Knowledgevc-org/ios/blob/master/AppBackend/RESTAPI/APIapp/views.py)
 
 * created using github api "statistics"
 
-* find docs here: https://developer.github.com/v3/repos/statistics/#get-the-last-year-of-commit-activity-data
+* [Documentation](https://developer.github.com/v3/repos/statistics/#get-the-last-year-of-commit-activity-data)
 
 * Data is then parsed to format usable by fusion charts using [CommitsSetupforFusion.py](https://github.com/Knowledgevc-org/ios/blob/master/AppBackend/RESTAPI/APIapp/CommitsSetupforFusion.py)
 
@@ -52,11 +52,11 @@ docs: http://www.fusioncharts.com/angularjs-charts/
 
 * route = "api/topContribFollowers/"
 
-* view = views.py/topContribFollowerData
+* view = [views.py/topContribFollowerData](https://github.com/Knowledgevc-org/ios/blob/master/AppBackend/RESTAPI/APIapp/views.py)
 
 * created using github api "statistics"
 
-* find docs here: https://developer.github.com/v3/repos/statistics/#get-contributors-list-with-additions-deletions-and-commit-counts
+* [Documentation](https://developer.github.com/v3/repos/statistics/#get-contributors-list-with-additions-deletions-and-commit-counts)
 
 * Data is parsed, sorted using pandas, and set up for fusioncharts in the script called [topContribsFollowersforFusion.py](https://github.com/Knowledgevc-org/ios/blob/master/AppBackend/RESTAPI/APIapp/topContribsFollowersforFusion.py)
 
@@ -64,11 +64,11 @@ docs: http://www.fusioncharts.com/angularjs-charts/
 
 * route = "api/totalStars/"
 
-* view = views.py/totalStars
+* view = [views.py/totalStars](https://github.com/Knowledgevc-org/ios/blob/master/AppBackend/RESTAPI/APIapp/views.py)
 
 * created using github api "search/repositories"
 
-* find docs here: https://developer.github.com/v3/search/#search-repositories
+* [Documentation](https://developer.github.com/v3/search/#search-repositories)
 
 * json returned provides star count and is set up for fusioncharts using [totalStarsSetupforFusion.py](https://github.com/Knowledgevc-org/ios/blob/master/AppBackend/RESTAPI/APIapp/totalStarsSetupforFusion.py)
 
@@ -76,11 +76,11 @@ docs: http://www.fusioncharts.com/angularjs-charts/
 
 * route = "api/starGrowth/"
 
-* view = views.py/starGrowth
+* view = [views.py/starGrowth](https://github.com/Knowledgevc-org/ios/blob/master/AppBackend/RESTAPI/APIapp/views.py)
 
 * created using github api "list-stargazers"
 
-* find docs here: https://developer.github.com/v3/activity/starring/#list-stargazers
+* [Documentation](https://developer.github.com/v3/activity/starring/#list-stargazers)
 
 * Most complicated chart so I will add additional documentation to the [starHistoryforFusionmultiline.py](https://github.com/Knowledgevc-org/ios/blob/master/AppBackend/RESTAPI/APIapp/starHistoryforFusionmultiline.py)
 to explain how data is obtained and parsed for fusionCharts
@@ -168,7 +168,7 @@ css: css/ghub.css
 
 js: js/ghub.js
 * dependencies:
-    - fusioncharts for angular - docs: http://www.fusioncharts.com/angularjs-charts/#/demos/ex1
+    - fusioncharts for angular - [docs](http://www.fusioncharts.com/angularjs-charts/#/demos/ex1)
     - located in js/bower_components
 
 
@@ -188,7 +188,7 @@ css: css/SummaryEngine.css
 
 js: js/summaryEngine.js
 * dependencies:
-    - wordCloud2.js - docs at github: https://github.com/timdream/wordcloud2.js/
+    - wordCloud2.js - [docs at github](https://github.com/timdream/wordcloud2.js/)
     - located in js/
 
 
