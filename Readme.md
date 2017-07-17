@@ -4,11 +4,11 @@ iPhone App
 APPBACKEND - Holds the Django API framework
 ======================================================================================
 
-  url routes located in RESTAPI/RESTAPI/urls.py
+  url routes located in [RESTAPI/RESTAPI/urls.py](https://github.com/Knowledgevc-org/ios/blob/master/AppBackend/RESTAPI/RESTAPI/urls.py)
 
-  views are located in RESTAPI/APIapp/views.py
+  views are located in [RESTAPI/APIapp/views.py](https://github.com/Knowledgevc-org/ios/blob/master/AppBackend/RESTAPI/APIapp/views.py)
 
-  views lead to other .py files in same directory
+
 
 
 clearbit analysis view (tab1)
