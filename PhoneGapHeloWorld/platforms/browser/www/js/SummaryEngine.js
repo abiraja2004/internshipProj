@@ -56,7 +56,7 @@ summaryEngApp.controller('summaryEngCtrl', ['$scope', '$compile', function($scop
                     if (xhr.readyState == XMLHttpRequest.DONE) {
                         console.log(xhr.responseText);
                         response = JSON.parse(xhr.responseText);
-                        console.log(response)
+                        console.log(response);
                         WordCloud(document.getElementById('wordCloud'), { list: response['wCloud'], backgroundColor: 'transparent' } )
                         console.log(response)
                         $scope.summaries = response['summaries'];

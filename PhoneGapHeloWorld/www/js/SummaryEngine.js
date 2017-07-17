@@ -2,6 +2,9 @@
  * Created by Hallshit on 7/10/17.
  */
 
+
+
+
 var app = {
     // Application Constructor
     initialize: function() {
@@ -47,22 +50,26 @@ summaryEngApp.controller('summaryEngCtrl', ['$scope', '$compile', function($scop
     $scope.loaderBool = true;
     $scope.wcHide = true;
 
-
+    //Funtion called when user submits search
     $scope.submitSearch = function () {
+
         $scope.loaderBool = false;
+
         var url = $('#url').val();
+
         var xhr = new XMLHttpRequest();
                 xhr.onreadystatechange = function () {
                     if (xhr.readyState == XMLHttpRequest.DONE) {
-                        console.log(xhr.responseText);
                         response = JSON.parse(xhr.responseText);
-                        console.log(response)
+
+                        //WordCloud generator
                         WordCloud(document.getElementById('wordCloud'), { list: response['wCloud'], backgroundColor: 'transparent' } )
-                        console.log(response)
+
+                        //Updates $scope
                         $scope.summaries = response['summaries'];
                         $scope.loaderBool = true;
                         $scope.wcHide = false;
-                        // $scope.summary = response['summary'];
+
 
 
                         $scope.$apply()

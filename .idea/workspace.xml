@@ -2,166 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16e8378e-32d5-4f21-a6a2-9a3eeae8ed77" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/KVClogoOnly.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/splash.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/TextSummaryEngine.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/SummaryEngine.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/summaryEngine.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/SummaryEngine.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/wordcloud2.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/.pgbomit" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/icon/android/drawable-hdpi-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/icon/android/drawable-ldpi-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/icon/android/drawable-mdpi-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/icon/android/drawable-xhdpi-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/icon/android/drawable-xxhdpi-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/icon/android/drawable-xxxhdpi-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/icon/ios/icon-40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/icon/ios/icon-40@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/icon/ios/icon-50.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/icon/ios/icon-50@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/icon/ios/icon-60.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/icon/ios/icon-60@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/icon/ios/icon-60@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/icon/ios/icon-72.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/icon/ios/icon-72@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/icon/ios/icon-76.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/icon/ios/icon-76@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/icon/ios/icon-small.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/icon/ios/icon-small@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/icon/ios/icon-small@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/icon/ios/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/icon/ios/icon@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/icon/windows/Square150x150Logo.scale-100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/icon/windows/Square150x150Logo.scale-240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/icon/windows/Square30x30Logo.scale-100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/icon/windows/Square310x310Logo.scale-100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/icon/windows/Square44x44Logo.scale-100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/icon/windows/Square44x44Logo.scale-240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/icon/windows/Square70x70Logo.scale-100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/icon/windows/Square71x71Logo.scale-100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/icon/windows/Square71x71Logo.scale-240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/icon/windows/StoreLogo.scale-100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/icon/windows/StoreLogo.scale-240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/icon/windows/Wide310x150Logo.scale-100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/icon/windows/Wide310x150Logo.scale-240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/icon/wp8/ApplicationIcon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/icon/wp8/Background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/screen/android/drawable-land-hdpi-screen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/screen/android/drawable-land-ldpi-screen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/screen/android/drawable-land-mdpi-screen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/screen/android/drawable-land-xhdpi-screen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/screen/android/drawable-land-xxhdpi-screen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/screen/android/drawable-land-xxxhdpi-screen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/screen/android/drawable-port-hdpi-screen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/screen/android/drawable-port-ldpi-screen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/screen/android/drawable-port-mdpi-screen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/screen/android/drawable-port-xhdpi-screen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/screen/android/drawable-port-xxhdpi-screen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/screen/android/drawable-port-xxxhdpi-screen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/screen/ios/Default-568h@2x~iphone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/screen/ios/Default-667h.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/screen/ios/Default-736h.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/screen/ios/Default-Landscape-736h.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/screen/ios/Default-Landscape@2x~ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/screen/ios/Default-Landscape~ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/screen/ios/Default-Portrait@2x~ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/screen/ios/Default-Portrait~ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/screen/ios/Default@2x~iphone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/screen/ios/Default~iphone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/screen/windows/SplashScreen.scale-100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/screen/windows/SplashScreenPhone.scale-240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/res/screen/wp8/screen-portrait.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/icon/android/drawable-hdpi-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/icon/android/drawable-ldpi-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/icon/android/drawable-mdpi-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/icon/android/drawable-xhdpi-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/icon/android/drawable-xxhdpi-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/icon/android/drawable-xxxhdpi-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/icon/ios/icon-40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/icon/ios/icon-40@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/icon/ios/icon-50.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/icon/ios/icon-50@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/icon/ios/icon-60.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/icon/ios/icon-60@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/icon/ios/icon-60@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/icon/ios/icon-72.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/icon/ios/icon-72@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/icon/ios/icon-76.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/icon/ios/icon-76@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/icon/ios/icon-small.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/icon/ios/icon-small@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/icon/ios/icon-small@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/icon/ios/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/icon/ios/icon@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/icon/windows/Square150x150Logo.scale-100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/icon/windows/Square150x150Logo.scale-240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/icon/windows/Square30x30Logo.scale-100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/icon/windows/Square310x310Logo.scale-100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/icon/windows/Square44x44Logo.scale-100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/icon/windows/Square44x44Logo.scale-240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/icon/windows/Square70x70Logo.scale-100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/icon/windows/Square71x71Logo.scale-100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/icon/windows/Square71x71Logo.scale-240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/icon/windows/StoreLogo.scale-100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/icon/windows/StoreLogo.scale-240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/icon/windows/Wide310x150Logo.scale-100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/icon/windows/Wide310x150Logo.scale-240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/icon/wp8/ApplicationIcon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/icon/wp8/Background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/screen/android/drawable-land-hdpi-screen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/screen/android/drawable-land-ldpi-screen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/screen/android/drawable-land-mdpi-screen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/screen/android/drawable-land-xhdpi-screen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/screen/android/drawable-land-xxhdpi-screen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/screen/android/drawable-land-xxxhdpi-screen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/screen/android/drawable-port-hdpi-screen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/screen/android/drawable-port-ldpi-screen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/screen/android/drawable-port-mdpi-screen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/screen/android/drawable-port-xhdpi-screen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/screen/android/drawable-port-xxhdpi-screen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/screen/android/drawable-port-xxxhdpi-screen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/screen/ios/Default-568h@2x~iphone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/screen/ios/Default-667h.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/screen/ios/Default-736h.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/screen/ios/Default-Landscape-736h.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/screen/ios/Default-Landscape@2x~ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/screen/ios/Default-Landscape~ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/screen/ios/Default-Portrait@2x~ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/screen/ios/Default-Portrait~ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/screen/ios/Default@2x~iphone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/screen/ios/Default~iphone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/screen/windows/SplashScreen.scale-100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/screen/windows/SplashScreenPhone.scale-240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/screen/wp8/screen-portrait.jpg" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/res/.pgbomit" afterPath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/GithubScrapeTrending.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/cloud icon grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/github-icon-grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/grey-newspaper-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/group-32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/headline.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Readme.md" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/crosshairIcon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/githubIcon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/newsIcon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/crosshairIcon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/githubIcon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/newsIcon.png" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/View3.html" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/Headline.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/Archive.zip" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/Archive.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/Archive.zip" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/Archive.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/competition/comp" afterPath="$PROJECT_DIR$/competition/comp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/CommitsSetupforFusion.py" afterPath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/CommitsSetupforFusion.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/starHistoryforFusionmultiline.py" afterPath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/starHistoryforFusionmultiline.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/starhistorybenchmarks.py" afterPath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/starhistorybenchmarks.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/topContribsFollowersforFusion.py" afterPath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/topContribsFollowersforFusion.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/totalStarsSetupforFusion.py" afterPath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/totalStarsSetupforFusion.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/views.py" afterPath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AppBackend/RESTAPI/RESTAPI/urls.py" afterPath="$PROJECT_DIR$/AppBackend/RESTAPI/RESTAPI/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/Ghub.html" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/Ghub.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/SummaryEngine.html" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/SummaryEngine.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/View3.html" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/View3.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/css/ghub.css" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/css/ghub.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/css/index.css" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/css/summaryEngine.css" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/css/summaryEngine.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/index.html" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/js/bower_components/fusioncharts/.bower.json" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/js/bower_components/fusioncharts/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/js/ghub.js" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/js/ghub.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/js/index.js" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/js/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/js/SummaryEngine.js" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/js/SummaryEngine.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/Ghub.html" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/Ghub.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/config.xml" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/SummaryEngine.html" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/SummaryEngine.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/ghub.css" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/ghub.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/index.css" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/summaryEngine.css" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/summaryEngine.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/index.html" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/bower_components/fusioncharts/.bower.json" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/bower_components/fusioncharts/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/SummaryEngine.js" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/SummaryEngine.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/ghub.js" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/ghub.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/index.js" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/index.js" />
     </list>
     <ignored path="KnowledgeVC.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -189,28 +65,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ghub.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ghub.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/ghub.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="50" column="29" lean-forward="false" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
+            <state relative-caret-position="367">
+              <caret line="57" column="23" lean-forward="true" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="39" />
               <folding>
                 <element signature="e#0#42#0" expanded="false" />
-                <marker date="1499980473000" expanded="true" signature="3537:3548" ph="..." />
-                <marker date="1499980473000" expanded="true" signature="3537:3549" ph="..." />
-                <marker date="1499980473000" expanded="true" signature="3948:3959" ph="..." />
-                <marker date="1499980473000" expanded="true" signature="4372:4382" ph="..." />
-                <marker date="1499980473000" expanded="true" signature="4810:4821" ph="..." />
+                <marker date="1500323367000" expanded="true" signature="3539:3550" ph="..." />
+                <marker date="1500323367000" expanded="true" signature="3539:3551" ph="..." />
+                <marker date="1500323367000" expanded="true" signature="3950:3961" ph="..." />
+                <marker date="1500323367000" expanded="true" signature="4374:4384" ph="..." />
+                <marker date="1500323367000" expanded="true" signature="4812:4823" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="summaryEngine.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/css/summaryEngine.css">
+      <file leaf-file-name="TextSummaryEngine.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/TextSummaryEngine.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="590">
-              <caret line="45" column="15" lean-forward="false" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="15" />
+            <state relative-caret-position="203">
+              <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ghub.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/Ghub.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="43" column="42" lean-forward="false" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -219,8 +105,48 @@
       <file leaf-file-name="SummaryEngine.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/SummaryEngine.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+            <state relative-caret-position="855">
+              <caret line="57" column="14" lean-forward="true" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Readme.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Readme.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1454">
+              <caret line="177" column="27" lean-forward="false" selection-start-line="177" selection-start-column="27" selection-end-line="177" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="headline.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/css/headline.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="topContribsFollowersforFusion.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/topContribsFollowersforFusion.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="summaryEngine.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/css/summaryEngine.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="636">
+              <caret line="58" column="1" lean-forward="true" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -229,11 +155,21 @@
       <file leaf-file-name="SummaryEngine.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/SummaryEngine.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+            <state relative-caret-position="885">
+              <caret line="61" column="64" lean-forward="false" selection-start-line="61" selection-start-column="64" selection-end-line="61" selection-end-column="64" />
               <folding>
                 <element signature="e#0#42#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="95" column="22" lean-forward="false" selection-start-line="95" selection-start-column="6" selection-end-line="95" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -245,8 +181,8 @@
       <list>
         <option value="HTML File" />
         <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="Python Script" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -263,29 +199,32 @@
         <option value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/StarsHistoryForFusion.py" />
         <option value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/nltkclfpickle.py" />
         <option value="$PROJECT_DIR$/PhoneGapHeloWorld/config.xml" />
-        <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/View3.html" />
         <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/headline.js" />
         <option value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/GithubGo.py" />
         <option value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/starhistorybenchmarks.py" />
-        <option value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/starHistoryforFusionmultiline.py" />
         <option value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/CommitsSetupforFusion.py" />
         <option value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/topContribsFollowersforFusion.py" />
         <option value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/totalStarsSetupforFusion.py" />
         <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/config.xml" />
         <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/index.js" />
-        <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/index.html" />
         <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/bower_components/fusioncharts/.bower.json" />
-        <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/index.css" />
         <option value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/TextSummaryEngine.py" />
-        <option value="$PROJECT_DIR$/AppBackend/RESTAPI/RESTAPI/urls.py" />
-        <option value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/views.py" />
-        <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/SummaryEngine.html" />
-        <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/SummaryEngine.js" />
-        <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/summaryEngine.css" />
         <option value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/GithubScrapeTrending.py" />
+        <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/index.html" />
+        <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/View3.html" />
+        <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/index.css" />
+        <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/summaryEngine.css" />
         <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/ghub.css" />
+        <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/piStockTicker.py" />
+        <option value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/views.py" />
+        <option value="$PROJECT_DIR$/AppBackend/RESTAPI/RESTAPI/urls.py" />
+        <option value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/starHistoryforFusionmultiline.py" />
+        <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/SummaryEngine.html" />
         <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/Ghub.html" />
+        <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/SummaryEngine.js" />
         <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/ghub.js" />
+        <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/headline.css" />
+        <option value="$PROJECT_DIR$/Readme.md" />
       </list>
     </option>
   </component>
@@ -319,8 +258,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KnowledgeVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KnowledgeVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="KnowledgeVC" />
@@ -540,6 +490,28 @@
               <option name="myItemId" value="KnowledgeVC" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="competition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="competition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KnowledgeVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KnowledgeVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="competition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -697,7 +669,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -711,6 +682,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="Python" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="FullScreen" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/Hallshit/Documents/KnowledgeVC/AppBackend/RESTAPI/APIapp/views.py" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -719,9 +691,9 @@
       <recent name="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/PhoneGapHeloWorld/www/img" />
       <recent name="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/bower_components" />
       <recent name="$PROJECT_DIR$/PhoneGapHeloWorld/www" />
-      <recent name="$PROJECT_DIR$/PhoneGapHeloWorld/www/img" />
       <recent name="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp" />
       <recent name="$PROJECT_DIR$/PhoneGapHeloWorld/www/js" />
     </key>
@@ -1073,7 +1045,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22389127" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2267525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29020557" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1081,7 +1053,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22007255" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16444983" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1096,6 +1068,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1113,244 +1088,42 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/res/screen/ios/Default-Landscape@2x~ipad.png" />
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/res/screen/ios/Default~iphone.png" />
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/KVClogoOnly.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/res/icons/ios/icon-40.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/res/icons/ios/icon-50.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/res/icons/ios/icon-57.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/res/icons/ios/icon-60.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/res/icons/ios/icon-72.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/res/icons/ios/icon-76.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/res/icons/ios/icon-50-2x.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/res/icons/ios/icon-57-2x.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/res/icons/ios/icon-60-2x.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/totalStarsSetupforFusion.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="943">
-          <caret line="82" column="36" lean-forward="false" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/bower_components/dist/jqcloud.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/bower_components/dist/jqcloud.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/bower_components/dist/jqcloud.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/bower_components/dist/jqcloud.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/bower_components/dist/jqcloud.js" />
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/bower_components/dist/jqcloud.css" />
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/bower_components/dist/jqcloud.min.js" />
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/bower_components/dist/jqcloud.min.css" />
     <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/bower_components/fusioncharts/bower.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/bower_components/jqcloud2/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/bower_components/jqcloud2/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/bower_components/jqcloud2/LICENSE.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/bower_components/jqcloud2/src/jqcloud.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/bower_components/jqcloud2/src/.wrapper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/bower_components/jqcloud2/src/jqcloud.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/bower_components/jqcloud2/dist/jqcloud.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/bower_components/jqcloud2/dist/jqcloud.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/bower_components/jqcloud2/dist/jqcloud.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/bower_components/jqcloud2/dist/jqcloud.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/bower_components/jqcloud2/test/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/bower_components/jqcloud2/test/core_tests.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/bower_components/jqcloud2/.jshintrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/bower_components/jqcloud2/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/bower_components/jqcloud2/README.md" />
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/bower_components/jqcloud2/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/bower_components/jqcloud2/LICENSE.txt" />
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/bower_components/jqcloud2/src/jqcloud.js" />
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/bower_components/jqcloud2/src/.wrapper.js" />
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/bower_components/jqcloud2/src/jqcloud.scss" />
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/bower_components/jqcloud2/dist/jqcloud.js" />
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/bower_components/jqcloud2/dist/jqcloud.css" />
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/bower_components/jqcloud2/dist/jqcloud.min.js" />
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/bower_components/jqcloud2/dist/jqcloud.min.css" />
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/bower_components/jqcloud2/test/index.html" />
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/bower_components/jqcloud2/test/core_tests.js" />
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/bower_components/jqcloud2/.jshintrc" />
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/bower_components/jqcloud2/bower.json" />
     <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/bower_components/fusioncharts/.bower.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1362,73 +1135,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/RESTAPI/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
           <caret line="41" column="18" lean-forward="false" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/TextSummaryEngine.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="146" column="38" lean-forward="false" selection-start-line="146" selection-start-column="38" selection-end-line="146" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="39" column="39" lean-forward="false" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/GithubGo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-37">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/RESTAPI/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="28" column="60" lean-forward="false" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="121" column="42" lean-forward="false" selection-start-line="121" selection-start-column="42" selection-end-line="121" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/Ghub.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="58" column="119" lean-forward="false" selection-start-line="58" selection-start-column="119" selection-end-line="58" selection-end-column="119" />
-          <folding>
-            <element signature="n#style#0;n#i#0;n#p#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1437,57 +1147,198 @@
         <state relative-caret-position="261">
           <caret line="27" column="18" lean-forward="false" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/cloud icon grey.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/news icon grey.png" />
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/crosshair-icon-grey.png" />
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/github-icon-grey.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/people-grey.png" />
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/group-32.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/grey-newspaper-icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/Headline.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="47" column="6" lean-forward="false" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="112" column="6" lean-forward="false" selection-start-line="112" selection-start-column="6" selection-end-line="112" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/css/ghub.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="90" column="13" lean-forward="false" selection-start-line="90" selection-start-column="13" selection-end-line="90" selection-end-column="13" />
+        <state relative-caret-position="1365">
+          <caret line="91" column="0" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/piStockTicker.py" />
+    <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/CommitsSetupforFusion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/RESTAPI/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" column="15" lean-forward="true" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/GithubGo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-199">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/starHistoryforFusionmultiline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/StarsHistoryForFusion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-933">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="95" column="22" lean-forward="false" selection-start-line="95" selection-start-column="6" selection-end-line="95" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/topContribsFollowersforFusion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/TextSummaryEngine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/css/summaryEngine.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="45" column="15" lean-forward="false" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="15" />
+        <state relative-caret-position="636">
+          <caret line="58" column="1" lean-forward="true" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/SummaryEngine.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+        <state relative-caret-position="885">
+          <caret line="61" column="64" lean-forward="false" selection-start-line="61" selection-start-column="64" selection-end-line="61" selection-end-column="64" />
           <folding>
             <element signature="e#0#42#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/SummaryEngine.html">
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/Ghub.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        <state relative-caret-position="464">
+          <caret line="43" column="42" lean-forward="false" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/ghub.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="50" column="29" lean-forward="false" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
+        <state relative-caret-position="367">
+          <caret line="57" column="23" lean-forward="true" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="39" />
           <folding>
             <element signature="e#0#42#0" expanded="false" />
-            <marker date="1499980473000" expanded="true" signature="3537:3548" ph="..." />
-            <marker date="1499980473000" expanded="true" signature="3537:3549" ph="..." />
-            <marker date="1499980473000" expanded="true" signature="3948:3959" ph="..." />
-            <marker date="1499980473000" expanded="true" signature="4372:4382" ph="..." />
-            <marker date="1499980473000" expanded="true" signature="4810:4821" ph="..." />
+            <marker date="1500323367000" expanded="true" signature="3539:3550" ph="..." />
+            <marker date="1500323367000" expanded="true" signature="3539:3551" ph="..." />
+            <marker date="1500323367000" expanded="true" signature="3950:3961" ph="..." />
+            <marker date="1500323367000" expanded="true" signature="4374:4384" ph="..." />
+            <marker date="1500323367000" expanded="true" signature="4812:4823" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/SummaryEngine.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="57" column="14" lean-forward="true" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/css/headline.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1454">
+          <caret line="177" column="27" lean-forward="false" selection-start-line="177" selection-start-column="27" selection-end-line="177" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>

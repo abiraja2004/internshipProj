@@ -29,14 +29,16 @@
                  </div>
             </form>
 
-<div class="row mx-auto pt-5">
+<div class="row mx-auto pt-5" id="loadspinner">
     <p class="text-center mx-auto" ng-hide="loaderBool">
-        <i class="fa fa-spinner fa-spin" style="font-size:36px"></i>
+        <i class="fa fa-spinner fa-spin" style="font-size:36px; color:white"></i>
     </p>
+
+    </div>
     <canvas id="wordCloud" ng-hide="wcHide">
 
     </canvas>
-</div>
+
     <div class="container">
     <div class="row pt-5" ng-repeat="s in summaries">
         <div ng-repeat="(key, value) in s">
@@ -48,21 +50,21 @@
 </div>
 
 
-    <div class="row fixed-bottom justify-content-center" id="navrow">
+  <div class="row fixed-bottom justify-content-center" id="navrow">
     <ul class="nav">
 
   <li class="nav-item ">
-    <a class="nav-link active" href="index.html"><img style="max-width: 90%; max-height: 90% " src="img/crosshairIcon.png"></a>
+    <a class="nav-link active" href="index.html"><img style="width: 70%; height: 75% " src="img/group-32.png"></a>
   </li>
 
   <li class="nav-item">
-    <a class="nav-link" href="Ghub.html"><img style="max-width: 100%; max-height: 100%" src="img/githubIcon.png"></a>
+    <a class="nav-link" href="Ghub.html"><img style="max-width: 80%; max-height: 80%" src="img/github-icon-grey.png"></a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="View3.html"><img style="max-height: 95%; max-width: 95%" src="img/newsIcon.png"> </a>
+    <a class="nav-link" href="View3.html"><img style="max-height: 80%; max-width: 80%" src="img/grey-newspaper-icon.png"> </a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="SummaryEngine.html">Link</a>
+    <a class="nav-link" href="SummaryEngine.html"><img style="max-height: 80%; max-width: 80%" src="img/cloud%20icon%20grey.png"></a>
   </li>
 </ul>
 
@@ -71,7 +73,7 @@
 
 <script type="text/javascript" src="cordova.js"></script>
 <script type="text/javascript" src="js/wordcloud2.js"></script>
-<script type="text/javascript" src="js/summaryEngine.js"></script>
+<script type="text/javascript" src="js/SummaryEngine.js"></script>
     <script type="text/javascript">
         app.initialize();
     </script>

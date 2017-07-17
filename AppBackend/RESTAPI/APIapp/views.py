@@ -24,7 +24,7 @@ import GithubScrapeTrending
 def home(request):
     return render(request, 'home.html')
 
-class commitData(APIView):
+class topContribFollowerData(APIView):
 
     # send data back as JSON
 

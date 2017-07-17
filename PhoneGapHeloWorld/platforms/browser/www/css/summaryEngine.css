@@ -1,30 +1,36 @@
+
+
 .nav {
     max-width: 100vw;
+    border-top: thin grey
 
 }
 
 
 
-.nav-item a{
-    border: black thick;
-    width: 25%;
 
-}
 
 #navbar {
-    background-color: #f7fcfc;
+    background-color: transparent;
+    border-top: thin grey
 }
 
 #navrow {
-    background-color:  #f7fcfc;
-    height: 9vh
+    /*background-color: #A5A5AF;*/
+    background-color: transparent;
+    border: thick black;
+    height: 9vh;
+    outline: 1px grey;
 }
 
 .nav-item {
     list-style-position:inside;
-    width: 25vw
+    /*border: 1px solid black;*/
+    width: 25vw;
+    vertical-align: middle;
 
 }
+
 
 ul.nav li a {
     display: inline-block;
@@ -44,4 +50,10 @@ body {
 
 #wordCloud {
     width: 100%;
+}
+
+#loadspinner {
+    position: absolute;
+    left: 50%;
+    top: 50%;
 }

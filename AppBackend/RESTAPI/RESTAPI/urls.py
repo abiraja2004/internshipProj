@@ -20,7 +20,7 @@ from APIapp import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', views.home),
-    url(r'^api/allData', views.commitData.as_view()),
+    url(r'^api/topContribFollowers', views.topContribFollowerData.as_view()),
     url(r'^tweetclf/predict', views.tweetclf.as_view()),
     url(r'^api/commitData', views.commit52.as_view()),
     url(r'^api/starGrowth', views.starGrowth.as_view()),

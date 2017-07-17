@@ -51,6 +51,8 @@ ghubApp.controller('ghubCtrl', ['$scope', '$compile', function($scope, $compile)
     $scope.loaderHide = false;
 
     $scope.$apply
+
+
     // Retrieve Github trending
     function retrieveGithubTrending() {
          var xhr = new XMLHttpRequest();
@@ -220,7 +222,7 @@ ghubApp.controller('ghubCtrl', ['$scope', '$compile', function($scope, $compile)
                         $scope.$apply()
                     }
                 };
-                xhr.open('POST', backendURL + '/api/allData/', true);
+                xhr.open('POST', backendURL + '/api/topContribFollowers/', true);
                 xhr.setRequestHeader("Content-Type", "application/json");
                 xhr.send(JSON.stringify({'company': company}))
             }
