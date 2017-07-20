@@ -63,7 +63,7 @@ summaryEngApp.controller('summaryEngCtrl', ['$scope', '$compile', function($scop
                         response = JSON.parse(xhr.responseText);
 
                         //WordCloud generator
-                        WordCloud(document.getElementById('wordCloud'), { list: response['wCloud'], backgroundColor: 'transparent' } )
+                        WordCloud(document.getElementById('wordCloud'), { list: response['wCloud'], backgroundColor: 'white' } )
 
                         //Updates $scope
                         $scope.summaries = response['summaries'];

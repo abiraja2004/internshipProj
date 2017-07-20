@@ -46,21 +46,32 @@ var searchApp = angular.module('searchApp', []);
         // Send search criteria
         $scope.filterhide = "true";
         $scope.submitSearch = function() {
+            company = $('#companyName').val()
+            var logo =  "<img src='//logo.clearbit.com/" +company + "'>"
+
+
+            $('#logo').append(logo)
+
             var xhr = new XMLHttpRequest();
             xhr.onreadystatechange = function() {
                     if (xhr.readyState == XMLHttpRequest.DONE) {
+                        results = JSON.parse(xhr.responseText)
                         console.log(JSON.parse(xhr.responseText));
+                        var mmap = results['mmap']
+                        var mmapElement = "<img style='max-width: 100%; max-height: 100%;'src='/img/marketMaps/"+ mmap + "'>"
+                        $('#mmap').append(mmapElement)
+
                     }
                 };
-                xhr.open('POST', 'http://ff3e99ad.ngrok.io/api/', true);
+                xhr.open('POST', 'http://48857f80.ngrok.io/api/getMarketMap', true);
                 xhr.setRequestHeader("Content-Type", "application/json");
-                xhr.send(JSON.stringify({"companyName": $('#companyName').val(),
-                                         "role": $('#role').val(),
-                                         "seniority": $('#seniority').val(),
-                                         "title": $('#title').val(),
-                                         "employeeName": $('#employeeName').val()
+                xhr.send(JSON.stringify({"companyName": $('#companyName').val()
+                                         // "role": $('#role').val(),
+                                         // "seniority": $('#seniority').val(),
+                                         // "title": $('#title').val(),
+                                         // "employeeName": $('#employeeName').val()
                 }))
-            $('#FormHeadContainer').slideUp(600);
+            // $('#FormHeadContainer').slideUp(600);
         };
         // Adds new filters
         $scope.filterSelect = function (x) {

@@ -19,7 +19,10 @@
 </head>
 <body ng-app="summaryEngApp">
 <div ng-controller="summaryEngCtrl">
+    <!-- main body container -->
 <div class="container">
+
+    <!--Search bar -->
     <form class="pt-5" style="width: 100%" ng-model="searchForm" ng-submit="submitSearch()">
                  <div class="form-group row">
 
@@ -28,18 +31,24 @@
                      </div>
                  </div>
             </form>
+    <!-- search bar ends -->
 
+    <!-- loading spinner -->
 <div class="row mx-auto pt-5" id="loadspinner">
     <p class="text-center mx-auto" ng-hide="loaderBool">
         <i class="fa fa-spinner fa-spin" style="font-size:36px; color:white"></i>
     </p>
 
     </div>
+    <!-- loading spinner ends -->
+
+    <!-- wordcloud section -->
     <canvas id="wordCloud" ng-hide="wcHide">
 
     </canvas>
 
-    <div class="container">
+    <!-- summary section -->
+    <div class="container summary-wrapper">
     <div class="row pt-5" ng-repeat="s in summaries">
         <div ng-repeat="(key, value) in s">
             <h3>{{ key }}</h3>
@@ -47,8 +56,11 @@
         </div>
     </div>
         </div>
+    <!-- summary section ends -->
 </div>
+    <!-- main body container ends -->
 
+        <!-- Nav bar div -->
 
   <div class="row fixed-bottom justify-content-center" id="navrow">
     <ul class="nav">
@@ -61,7 +73,7 @@
     <a class="nav-link" href="Ghub.html"><img style="max-width: 80%; max-height: 80%" src="img/github-icon-grey.png"></a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="View3.html"><img style="max-height: 80%; max-width: 80%" src="img/grey-newspaper-icon.png"> </a>
+    <a class="nav-link" href="Headline.html"><img style="max-height: 80%; max-width: 80%" src="img/grey-newspaper-icon.png"> </a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="SummaryEngine.html"><img style="max-height: 80%; max-width: 80%" src="img/cloud%20icon%20grey.png"></a>
@@ -69,7 +81,10 @@
 </ul>
 
 </div>
+    <!-- nav bar div ends -->
+
 </div>
+<!-- controller ends -->
 
 <script type="text/javascript" src="cordova.js"></script>
 <script type="text/javascript" src="js/wordcloud2.js"></script>

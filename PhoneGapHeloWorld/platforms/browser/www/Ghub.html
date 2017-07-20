@@ -27,6 +27,7 @@
 
 
     <div class="container" style="width: 100%; height: 100vh;">
+        <!-- search bar container -->
     <div class="container">
         <div class="row">
 
@@ -40,6 +41,7 @@
             </form>
         </div>
     </div>
+        <!-- search bar container ends -->
 
     <p id="loadspinner" class="text-center mx-auto" ng-hide="loaderHide">
         <i class="fa fa-spinner fa-spin" style="font-size:36px; color: white"></i>
@@ -48,7 +50,7 @@
 
 <!-- Github trending recommendations -->
 
-<div class="container animate-hide" ng-repeat="repo in trendingData" ng-hide="trendingHide">
+<div class="container animate-hide trending-container" ng-repeat="repo in trendingData" ng-hide="trendingHide">
     <a ng-click="submitSearch(repo.repo)">
     <div class="container mt-2 repoContainer">
         <div class="outer-triangle"></div>
@@ -92,7 +94,7 @@
     <a class="nav-link" href="Ghub.html"><img style="max-width: 80%; max-height: 80%" src="img/github-icon-grey.png"></a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="View3.html"><img style="max-height: 80%; max-width: 80%" src="img/grey-newspaper-icon.png"> </a>
+    <a class="nav-link" href="Headline.html"><img style="max-height: 80%; max-width: 80%" src="img/grey-newspaper-icon.png"> </a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="SummaryEngine.html"><img style="max-height: 80%; max-width: 80%" src="img/cloud%20icon%20grey.png"></a>

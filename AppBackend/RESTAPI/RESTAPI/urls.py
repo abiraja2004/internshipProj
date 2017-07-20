@@ -27,5 +27,6 @@ urlpatterns = [
     url(r'^api/totalStars', views.totalStars.as_view()),
     url(r'^api/summarizerEngine', views.summarizerEngine.as_view()),
     url(r'^api/ghubtrending', views.ghubTrending.as_view()),
+    url(r'^api/getMarketMap', views.getMarketMap.as_view()),
 
 ]

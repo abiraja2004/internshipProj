@@ -13,11 +13,17 @@
 #navbar {
     background-color: transparent;
     border-top: thin grey
+
 }
 
 #navrow {
     /*background-color: #A5A5AF;*/
-    background-color: transparent;
+
+    position: fixed;
+    /*overflow: auto;*/
+    bottom: 0px;
+    /*background-color: transparent;*/
+    background: inherit;
     border: thick black;
     height: 9vh;
     outline: 1px grey;
@@ -28,6 +34,13 @@
     /*border: 1px solid black;*/
     width: 25vw;
     vertical-align: middle;
+
+
+}
+
+.summary-wrapper {
+    height: 50vh;
+    overflow-y: scroll;
 
 }
 
@@ -46,6 +59,7 @@ body {
     background: linear-gradient(#7b97c4, white);
     background-attachment: fixed;
     background-repeat: no-repeat;
+    overflow: auto;
 }
 
 #wordCloud {

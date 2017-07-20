@@ -12,6 +12,8 @@ import starHistoryforFusionmultiline
 import topContribsFollowersforFusion
 import TextSummaryEngine
 import GithubScrapeTrending
+import GetLogo
+import os
 
 
 
@@ -127,6 +129,20 @@ class ghubTrending(APIView):
     def post(self, request):
         pass
 
+
+class getMarketMap(APIView):
+    def get(self, request):
+        pass
+
+    def post(self, request):
+        data = request.data
+        mmap = GetLogo.main(data['companyName'])
+        data = {'mmap': mmap}
+
+
+
+
+        return Response(data)
 
 
 
