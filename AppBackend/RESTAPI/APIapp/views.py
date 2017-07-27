@@ -13,6 +13,7 @@ import topContribsFollowersforFusion
 import TextSummaryEngine
 import GithubScrapeTrending
 import GetLogo
+import LogoFromDatabase
 import os
 
 
@@ -136,12 +137,9 @@ class getMarketMap(APIView):
 
     def post(self, request):
         data = request.data
-        mmap = GetLogo.main(data['companyName'])
+        company = data['companyName']
+        mmap = LogoFromDatabase.getMapFromLogo(company)
         data = {'mmap': mmap}
-
-
-
-
         return Response(data)
 
 

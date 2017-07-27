@@ -49,7 +49,7 @@ headlineApp.controller('headlineCtrl', ['$scope', function($scope) {
 
             }
         }
-        xhr.open('POST', 'http://ff3e99ad.ngrok.io/tweetclf/predict/', true);
+        xhr.open('POST', 'http://69609fd2.ngrok.io/tweetclf/predict/', true);
         xhr.setRequestHeader("Content-Type", "application/json");
         xhr.send(JSON.stringify({'headline': headline}))
     };

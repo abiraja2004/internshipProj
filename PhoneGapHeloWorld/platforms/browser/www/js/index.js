@@ -44,10 +44,12 @@ var searchApp = angular.module('searchApp', []);
         $scope.selectedFilters = [];
 
         // Send search criteria
-        $scope.filterhide = "true";
+        $scope.filterhide = true;
         $scope.submitSearch = function() {
+            $('#mmap').html("")
+            $('#logo').html("")
             company = $('#companyName').val()
-            var logo =  "<img src='//logo.clearbit.com/" +company + "'>"
+            var logo =  "<img src='//logo.clearbit.com/" +company + ".com'>"
 
 
             $('#logo').append(logo)
@@ -58,12 +60,12 @@ var searchApp = angular.module('searchApp', []);
                         results = JSON.parse(xhr.responseText)
                         console.log(JSON.parse(xhr.responseText));
                         var mmap = results['mmap']
-                        var mmapElement = "<img style='max-width: 100%; max-height: 100%;'src='/img/marketMaps/"+ mmap + "'>"
+                        var mmapElement = "<img style='max-width: 100%; max-height: 100%;'src='/img/taggedMarketMaps/"+ mmap + "'>"
                         $('#mmap').append(mmapElement)
 
                     }
                 };
-                xhr.open('POST', 'http://48857f80.ngrok.io/api/getMarketMap', true);
+                xhr.open('POST', 'http://69609fd2.ngrok.io/api/getMarketMap', true);
                 xhr.setRequestHeader("Content-Type", "application/json");
                 xhr.send(JSON.stringify({"companyName": $('#companyName').val()
                                          // "role": $('#role').val(),
@@ -75,12 +77,14 @@ var searchApp = angular.module('searchApp', []);
         };
         // Adds new filters
         $scope.filterSelect = function (x) {
-            $scope.filterhide = "false";
+            $scope.filterhide = false;
             if ($.inArray(x, $scope.selectedFilters)> -1){
                 console.log("Filter already chosen")
             }else {
                 $scope.selectedFilters.push(x);
                 console.log($scope.selectedFilters);
+                $scope.$apply
+
             }
         }
 

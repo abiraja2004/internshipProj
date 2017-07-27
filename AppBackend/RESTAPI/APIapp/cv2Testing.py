@@ -3,6 +3,7 @@ import PIL
 import os
 import numpy as np
 from matplotlib import pyplot as plt
+import time
 
 lastShape = 0
 
@@ -25,14 +26,18 @@ def recheck(logo, marketMap, size):
 # Actual template matching algorithm
 def matchTheTemplate(img, template, sizex):
 
-    img = cv2.imread(img, 0)
-    template = cv2.cvtColor(template, cv2.COLOR_BGR2RGB)
-    template = cv2.cvtColor(template, cv2.COLOR_BGR2GRAY)
+    # img = cv2.imread(img, 0)
+    # time.sleep(2)
+
+    # template = cv2.cvtColor(template, cv2.COLOR_BGR2RGB)
+    #
+    # template = cv2.cvtColor(template, cv2.COLOR_BGR2GRAY)
+
 
     # template = cv2.imread(template, 0)
     template = cv2.resize(template, (0, 0), fx=sizex, fy=sizex)
     w, h = template.shape[::-1]
-    print "w: {} h: {}".format(w, h)
+    # print "w: {} h: {}".format(w, h)
 
     # Types of matchers, [1] is the best so far
     methods = ['cv2.TM_CCOEFF', 'cv2.TM_CCOEFF_NORMED', 'cv2.TM_CCORR',
@@ -40,7 +45,9 @@ def matchTheTemplate(img, template, sizex):
     method = eval(methods[1])
 
     # Apply template Matching
+    # print img
     res = cv2.matchTemplate(img, template, method)
+    # print "Gets this far"
     min_val, max_val, min_loc, max_loc = cv2.minMaxLoc(res)
     print min_val, max_val, min_loc, max_loc
 
@@ -58,20 +65,22 @@ def matchTheTemplate(img, template, sizex):
 
 def isFound(max_val, img, res):
     if max_val > .8:
-        plt.subplot(121), plt.imshow(res, cmap='gray')
-        plt.title('Matching Result'), plt.xticks([]), plt.yticks([])
-        plt.subplot(122), plt.imshow(img, cmap='gray')
-        plt.title('Detected Point'), plt.xticks([]), plt.yticks([])
+        # plt.subplot(121), plt.imshow(res, cmap='gray')
+        # plt.title('Matching Result'), plt.xticks([]), plt.yticks([])
+        # plt.subplot(122), plt.imshow(img, cmap='gray')
+        # plt.title('Detected Point'), plt.xticks([]), plt.yticks([])
         # plt.suptitle(method)
-        plt.show()
+        # plt.show()
         return True
     else:
         return False
 
 
 def searchLogoInMap(logo, marketMap):
+
     highest = 0
     h, w = logo.shape[:2]
+
     print h, w
     estimatedScaler = int((68/float(h))*10-1)
     print estimatedScaler
@@ -81,11 +90,11 @@ def searchLogoInMap(logo, marketMap):
     # for each size get the score
     # Another idea to try: get dimensions of image and scale compared to average size of marketMap logo..Faster
 
-    for size in range(estimatedScaler, estimatedScaler+2):
+    for size in range(estimatedScaler-1, estimatedScaler+2):
         bestScore = 0
         size = float(size)
         sizex = size/10
-        print sizex
+        # print sizex
 
         # Perform tempate matching
 
@@ -117,18 +126,19 @@ def searchLogoInMap(logo, marketMap):
     # If all fails then we try again with the highest score recorded
     if isFound(max_val, img, res) == False:
         try:
-            print "Doing last tests"
+            # print "Doing last tests"
             sizex = float(highest)/10
             min_val, max_val, min_loc, max_loc = recheck(logo, marketMap, sizex)
             if max_val > .8:
-                plt.subplot(121),plt.imshow(res,cmap = 'gray')
-                plt.title('Matching Result'), plt.xticks([]), plt.yticks([])
-                plt.subplot(122),plt.imshow(img,cmap = 'gray')
-                plt.title('Detected Point'), plt.xticks([]), plt.yticks([])
+                # plt.subplot(121),plt.imshow(res,cmap = 'gray')
+                # plt.title('Matching Result'), plt.xticks([]), plt.yticks([])
+                # plt.subplot(122),plt.imshow(img,cmap = 'gray')
+                # plt.title('Detected Point'), plt.xticks([]), plt.yticks([])
+
                 return True
 
                 # plt.suptitle(method)
-                plt.show()
+                # plt.show()
         except:
             return False
 

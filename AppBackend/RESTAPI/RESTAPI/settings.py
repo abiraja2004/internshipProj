@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'APIapp',
     'corsheaders',
+    # 'APIapp.apps.ApiappConfig',
 ]
 
 MIDDLEWARE_CLASSES = [

@@ -76,7 +76,7 @@ summaryEngApp.controller('summaryEngCtrl', ['$scope', '$compile', function($scop
                     }
                 };
 
-                xhr.open('POST',  "http://48857f80.ngrok.io/api/summarizerEngine", true);
+                xhr.open('POST',  "http://69609fd2.ngrok.io/api/summarizerEngine", true);
                 xhr.setRequestHeader("Content-Type", "application/json");
                 xhr.send(JSON.stringify({'url': url}));
     }
