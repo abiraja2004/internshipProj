@@ -16,7 +16,15 @@ clearbit analysis view (tab1)
 Market map database is now connected and allows a search by company.  Currently contains about 50 marketMaps all collected
  from CB insights.
 
+ Images for market maps are located in [www/img/taggedMarketMaps](https://github.com/Knowledgevc-org/ios/blob/master/PhoneGapHeloWorld/www/img/taggedMarketMaps)
+    the database just returns the name of the searched marketMap not the market map image itself
  Still need clearbit Access to complete rest of tab
+
+ Things to do to make market maps more searchable:
+    -scrape market map page for all text
+    -Create tags through Google NLP entities
+    -use the google NLP again on searched companys website
+    -get market map through most matching tags
 
 
 Github analysis view (tab2)
