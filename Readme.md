@@ -13,7 +13,10 @@ APPBACKEND - Holds the Django API framework
 
 clearbit analysis view (tab1)
 ----------------------------
-Nothing is hooked up here yet since there is no clearbit account but the code for this is located in [/KnowledgeVC/competition](https://github.com/Knowledgevc-org/ios/tree/master/competition/competition)
+Market map database is now connected and allows a search by company.  Currently contains about 50 marketMaps all collected
+ from CB insights.
+
+ Still need clearbit Access to complete rest of tab
 
 
 Github analysis view (tab2)

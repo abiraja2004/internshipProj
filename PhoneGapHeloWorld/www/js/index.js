@@ -49,10 +49,10 @@ var searchApp = angular.module('searchApp', []);
             $('#mmap').html("")
             $('#logo').html("")
             company = $('#companyName').val()
-            var logo =  "<img src='//logo.clearbit.com/" +company + ".com'>"
-
-
-            $('#logo').append(logo)
+            // var logo =  "<img src='//logo.clearbit.com/" +company + ".com'>"
+            //
+            //
+            // $('#logo').append(logo)
 
             var xhr = new XMLHttpRequest();
             xhr.onreadystatechange = function() {
