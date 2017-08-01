@@ -45,7 +45,11 @@ var searchApp = angular.module('searchApp', []);
 
         // Send search criteria
         $scope.filterhide = true;
+        $scope.loaderBool = true;
+
+
         $scope.submitSearch = function() {
+            $scope.loaderBool = false;
             $('#mmap').html("")
             $('#logo').html("")
             company = $('#companyName').val()
@@ -57,11 +61,14 @@ var searchApp = angular.module('searchApp', []);
             var xhr = new XMLHttpRequest();
             xhr.onreadystatechange = function() {
                     if (xhr.readyState == XMLHttpRequest.DONE) {
+                        $scope.loaderBool = true;
+                        console.log($scope.loaderBool);
                         results = JSON.parse(xhr.responseText)
                         console.log(JSON.parse(xhr.responseText));
                         var mmap = results['mmap']
                         var mmapElement = "<img style='max-width: 100%; max-height: 100%;'src='/img/taggedMarketMaps/"+ mmap + "'>"
-                        $('#mmap').append(mmapElement)
+                        $('#mmap').append(mmapElement);
+                        $scope.$apply()
 
                     }
                 };

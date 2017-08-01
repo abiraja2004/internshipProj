@@ -17,7 +17,7 @@ Market map database is now connected and allows a search by company.  Currently 
  from CB insights.
 
  Images for market maps are located in [www/img/taggedMarketMaps](https://github.com/Knowledgevc-org/ios/blob/master/PhoneGapHeloWorld/www/img/taggedMarketMaps)
-    the database just returns the name of the searched marketMap not the market map image itself
+    the database just returns the name of the searched marketMap not the market map image itselfc
  Still need clearbit Access to complete rest of tab
 
  Things to do to make market maps more searchable:

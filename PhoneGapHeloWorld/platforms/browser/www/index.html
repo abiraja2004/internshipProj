@@ -14,6 +14,7 @@
 
    <!-- <script type="text/javascript" src="cordova.js"></script> -->
     <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
 
 
@@ -39,9 +40,6 @@
 
     <!--Form and Heading Container -->
     <div class="container" id="FormHeadContainer">
-
-
-
         <!--Add Filter Dropdown-->
 
         <div class="dropdown pt-2">
@@ -54,6 +52,9 @@
 
 
 </div>
+
+
+
 
     <!--Form Begins-->
          <form ng-model="searchForm" ng-submit="submitSearch()">
@@ -116,13 +117,24 @@
 
 </div>
 
+        <div class="row mx-auto pt-5" id="loadspinner">
+            <p class="text-center mx-auto" ng-hide="loaderBool">
+                <i class="fa fa-spinner fa-spin" style="font-size:36px; color:white"></i>
+             </p>
+
+    </div>
 
 
 </div>
     <!--Container ends ^^-->
 </div>
+
+
+
 <!--Controller ends ^^-->
         </div>
+
+
 
 <script type="text/javascript" src="cordova.js"></script>
 <script type="text/javascript" src="js/index.js"></script>

@@ -17,6 +17,7 @@ from sumy.nlp.stemmers import Stemmer
 from sumy.utils import get_stop_words
 import sys
 import Algorithmia
+import requests
 reload(sys)
 sys.setdefaultencoding("utf-8")
 
@@ -86,8 +87,12 @@ def analyzeText(text):
     return sentiment, entities
 
 
-def getTextFromURL(url):
-    req = urllib2.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+def getTextFromURL(company):
+    url = "https://autocomplete.clearbit.com/v1/companies/suggest?query={}".format(company)
+    req = requests.get(url)
+    domain = req.json()[0]['domain']
+    domain = 'http://{}'.format(domain)
+    req = urllib2.Request(domain, headers={'User-Agent': 'Mozilla/5.0'})
     html = urllib2.urlopen(req).read()
     soup = BeautifulSoup(html, 'html.parser')
     for script in soup(["script", "style", "ul", "a", "li", "nav", {'class': 'demo'}]):
@@ -101,7 +106,7 @@ def getTextFromURL(url):
 #     text = getTextFromURL(url)
 #     return analyzeText(text)
 
-url = 'https://www.clarifai.com/'
+# url = 'https://www.clarifai.com/'
 
 def convertToWordCloud(text):
     wordCloudList = []

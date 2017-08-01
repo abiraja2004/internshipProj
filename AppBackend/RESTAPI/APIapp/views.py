@@ -102,10 +102,11 @@ class summarizerEngine(APIView):
 
     def post(self, request):
         data = request.data
-        url = data["url"]
+        company = data["url"]
+
         print data
         returnData = {}
-        text = TextSummaryEngine.getTextFromURL(url)
+        text = TextSummaryEngine.getTextFromURL(company)
         wCloud = TextSummaryEngine.convertToWordCloud(text)
         # print wCloud
         returnData['wCloud'] = wCloud
