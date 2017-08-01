@@ -21,6 +21,8 @@ import requests
 reload(sys)
 sys.setdefaultencoding("utf-8")
 
+# This file contains the 3 summarizers for the text on the companies homepage (the sumy is the best one so far)
+
 # nltk summarizer from http://glowingpython.blogspot.com/2014/09/text-summarization-with-nltk.html
 
 class FrequencySummarizer:

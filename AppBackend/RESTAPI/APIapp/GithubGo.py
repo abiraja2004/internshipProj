@@ -2,6 +2,10 @@ import requests
 import pandas as pd
 import datetime
 
+# this file contains all the different api requests for Github api
+
+
+
 # token = '0f2ded5698764a28ba68e8be8067cc5ea51675bb'
 client_id = 'c199fae32b00b0674067'
 client_secret = 'a1802908a53236daa527a0cb85888c295ccacedd'

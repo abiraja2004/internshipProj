@@ -20,6 +20,8 @@ def getBMtrendlines(repo):
     average = total / 52
     return repo['items'][0]['full_name'], average
 
+
+# Set up data in fusionchart format
 def convertData(repo):
     # bmName, bmAverage = getBMtrendlines('angular/angular.js')
     # repo = GithubGo.searchRepos('tensorflow', sort='stars')

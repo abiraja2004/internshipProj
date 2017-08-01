@@ -5,9 +5,7 @@ import starhistorybenchmarks
 import pdb
 import numpy as np
 
-
-
-
+#
 def convertData(repo):
     # get first repo name in returned repo list
     print repo['items'][0]['full_name']

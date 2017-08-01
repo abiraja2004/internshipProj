@@ -4,6 +4,10 @@ import Algorithmia
 import GithubGo
 from itertools import islice
 
+# This file scrapes the github's trending page for repos.
+# Then gets all other relevant data through api's (stars, tags, description)
+# Probably is faster to just get stars, tags, and description through original scrape
+
 def take(n, iterable):
     "Return first n items of the iterable as a list"
     return list(islice(iterable, n))

@@ -9,6 +9,14 @@ import TextSummaryEngine
 import itertools
 import operator
 
+# This file uses a company name to find the relevant market map
+
+# First getMapFromLogo is called which first checks to see if the company is in list of logos in market maps.
+# If not then it scrapes the home page of the company and sends text data to google NLP to return it's entities
+# These entities are then checked to see if they match any of the tags linked to the market maps.
+# If there is a match then the map that is most matched gets chosen as top match
+# Probably going to change it from most matched to most matched according to entity salience
+
 
 
 def most_common(L):
@@ -33,9 +41,7 @@ def most_common(L):
 def getMapFromLogo(logo):
     conn = sqlite3.connect('/Users/Hallshit/Documents/KnowledgeVC/AppBackend/RESTAPI/db.sqlite3')
     c = conn.cursor()
-
     conn.text_factory = str
-
     c.execute("SELECT * FROM APIapp_logo WHERE company LIKE (?)", [logo])
     print c.fetchall()
     c.execute(
@@ -54,35 +60,23 @@ def getMapWithTag(tag,c):
     return c.fetchall()
 
 
-def getEntititesFromHomepageAndMatch(company,c):
-    # url = "https://autocomplete.clearbit.com/v1/companies/suggest?query={}".format(company)
-    # req = requests.get(url)
-    # domain = req.json()[0]['domain']
-
-
+def getEntititesFromHomepageAndMatch(company, c):
     text = TextSummaryEngine.getTextFromURL(company)
     print text
     sent, ent = TextSummaryEngine.analyzeText(text)
-
     mmaps = []
-
     for e in ent[:20]:
         try:
             mmap = getMapWithTag(e.name, c)
             for m in mmap:
                 mmaps.append(m)
-
         except:
             print "tag not found"
-
-
-    # print mmaps
 
     topMatch = most_common(mmaps)[0]
     return topMatch
 
 
-# getEntititesFromHomepage('clarifai')
 
 
 
