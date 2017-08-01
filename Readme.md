@@ -170,7 +170,8 @@ All api calls are made through XMLHttpRequest() because angular.post would not w
 clearbit analysis view
 -----------------------------------
 html: [Index.html](https://github.com/Knowledgevc-org/ios/blob/master/PhoneGapHeloWorld/www/index.html)
-Nothing here yet since there is no clearbit account
+css: [index.css](https://github.com/Knowledgevc-org/ios/blob/master/PhoneGapHeloWorld/www/css/index.css)
+js: [index.js](https://github.com/Knowledgevc-org/ios/blob/master/PhoneGapHeloWorld/www/js/index.js)
 
 
 github analysis view

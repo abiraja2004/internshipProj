@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="16e8378e-32d5-4f21-a6a2-9a3eeae8ed77" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/competition/comp" afterPath="$PROJECT_DIR$/competition/comp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/css/ghub.css" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/css/ghub.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/js/ghub.js" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/js/ghub.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/ghub.css" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/ghub.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/ghub.js" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/ghub.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Readme.md" afterPath="$PROJECT_DIR$/Readme.md" />
     </list>
     <ignored path="KnowledgeVC.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -170,7 +166,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ghub.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Readme.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Readme.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="173" column="99" lean-forward="false" selection-start-line="173" selection-start-column="99" selection-end-line="173" selection-end-column="99" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ghub.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/ghub.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="191">
@@ -242,7 +248,6 @@
         <option value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/models.py" />
         <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/headline.js" />
         <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/SummaryEngine.js" />
-        <option value="$PROJECT_DIR$/Readme.md" />
         <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/index.css" />
         <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/index.js" />
         <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/index.html" />
@@ -252,6 +257,7 @@
         <option value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/LogoFromDatabase.py" />
         <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/ghub.css" />
         <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/ghub.js" />
+        <option value="$PROJECT_DIR$/Readme.md" />
       </list>
     </option>
   </component>
@@ -1394,14 +1400,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Readme.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="97" lean-forward="false" selection-start-line="19" selection-start-column="97" selection-end-line="19" selection-end-column="97" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/AIRetail.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1552,6 +1550,14 @@
             <marker date="1501615818000" expanded="true" signature="4374:4384" ph="..." />
             <marker date="1501615818000" expanded="true" signature="4812:4823" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="173" column="99" lean-forward="false" selection-start-line="173" selection-start-column="99" selection-end-line="173" selection-end-column="99" />
+          <folding />
         </state>
       </provider>
     </entry>
