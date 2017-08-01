@@ -102,14 +102,9 @@ ghubApp.controller('ghubCtrl', ['$scope', '$compile', function($scope, $compile)
 
 
     $scope.submitSearch = function (company) {
-        $scope.trendingHide = true
-
+        // $scope.trendingHide = true;
+        $('.trending-container').remove();
         console.log(company);
-
-
-
-
-
 
         angular.element(document.querySelector('#chartsdiv')).html('');
         // var company = $('#companyName').val();

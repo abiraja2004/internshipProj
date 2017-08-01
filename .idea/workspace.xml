@@ -2,27 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16e8378e-32d5-4f21-a6a2-9a3eeae8ed77" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/AICybersecurityMarketMap.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/BlockChainMarketMap.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/GroceryStoreTechMarketMap.jpg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/InsuranceTechMarketMap.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/PaymentsTechMarketMap.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/VR-ARMarketMap.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AppBackend/RESTAPI/db.sqlite3" afterPath="$PROJECT_DIR$/AppBackend/RESTAPI/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/competition/comp" afterPath="$PROJECT_DIR$/competition/comp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/LogoFromDatabase.py" afterPath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/LogoFromDatabase.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/TextSummaryEngine.py" afterPath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/TextSummaryEngine.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/views.py" afterPath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/SummaryEngine.html" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/SummaryEngine.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/css/index.css" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/index.html" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/js/index.js" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/SummaryEngine.html" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/SummaryEngine.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/index.css" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/index.html" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/index.js" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Readme.md" afterPath="$PROJECT_DIR$/Readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/css/ghub.css" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/css/ghub.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/js/ghub.js" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/js/ghub.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/ghub.css" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/ghub.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/ghub.js" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/ghub.js" />
     </list>
     <ignored path="KnowledgeVC.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -175,88 +160,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/index.js">
+      <file leaf-file-name="Ghub.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/Ghub.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="72" column="21" lean-forward="false" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
-              <folding>
-                <marker date="1501612943000" expanded="true" signature="2337:2371" ph="..." />
-                <marker date="1501612943000" expanded="true" signature="2372:2411" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/css/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="70">
+              <caret line="45" column="2" lean-forward="false" selection-start-line="45" selection-start-column="2" selection-end-line="48" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="summaryEngine.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/css/summaryEngine.css">
+      <file leaf-file-name="ghub.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/ghub.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LogoFromDatabase.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/LogoFromDatabase.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="62" column="51" lean-forward="false" selection-start-line="62" selection-start-column="51" selection-end-line="62" selection-end-column="51" />
+            <state relative-caret-position="191">
+              <caret line="105" column="42" lean-forward="true" selection-start-line="105" selection-start-column="42" selection-end-line="105" selection-end-column="42" />
               <folding>
-                <element signature="e#232#246#0" expanded="true" />
-                <marker date="1501614110000" expanded="true" signature="1105:1153" ph="SELECT * FRO... APIapp_logo" />
-                <marker date="1501614110000" expanded="true" signature="1211:1385" ph="SELECT name APIapp_map" />
-                <marker date="1501614110000" expanded="true" signature="1263:1384" ph="SELECT mapID... APIapp_maphaslogo" />
-                <marker date="1501614110000" expanded="true" signature="1322:1383" ph="SELECT id FR... APIapp_logo" />
-                <marker date="1501614110000" expanded="true" signature="1610:1767" ph="SELECT name APIapp_map" />
-                <marker date="1501614110000" expanded="true" signature="1651:1766" ph="SELECT mapID... APIapp_maphastags" />
-                <marker date="1501614110000" expanded="true" signature="1709:1765" ph="SELECT id FR... APIapp_tag" />
+                <marker date="1501615818000" expanded="true" signature="3539:3551" ph="..." />
+                <marker date="1501615818000" expanded="true" signature="3950:3961" ph="..." />
+                <marker date="1501615818000" expanded="true" signature="4374:4384" ph="..." />
+                <marker date="1501615818000" expanded="true" signature="4812:4823" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SummaryEngine.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/SummaryEngine.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="29" column="93" lean-forward="false" selection-start-line="29" selection-start-column="93" selection-end-line="29" selection-end-column="93" />
-              <folding>
-                <element signature="n#style#0;n#i#0;n#p#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TextSummaryEngine.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/TextSummaryEngine.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="90" column="91" lean-forward="true" selection-start-line="90" selection-start-column="91" selection-end-line="90" selection-end-column="91" />
-              <folding>
-                <element signature="e#0#33#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1278">
-              <caret line="108" column="55" lean-forward="false" selection-start-line="108" selection-start-column="55" selection-end-line="108" selection-end-column="55" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -264,21 +188,9 @@
       <file leaf-file-name="ghub.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/css/ghub.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="42" column="1" lean-forward="false" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+            <state relative-caret-position="336">
+              <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="121" column="16" lean-forward="false" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="16" />
-              <folding>
-                <element signature="n#style#0;n#i#0;n#p#0;n#div#4;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -321,7 +233,6 @@
         <option value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/starHistoryforFusionmultiline.py" />
         <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/headline.css" />
         <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/summaryEngine.css" />
-        <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/ghub.css" />
         <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/Ghub.html" />
         <option value="$PROJECT_DIR$/AppBackend/RESTAPI/RESTAPI/urls.py" />
         <option value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/cv2Testing.py" />
@@ -329,7 +240,6 @@
         <option value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/GetLogo.py" />
         <option value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/serializers.py" />
         <option value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/models.py" />
-        <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/ghub.js" />
         <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/headline.js" />
         <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/SummaryEngine.js" />
         <option value="$PROJECT_DIR$/Readme.md" />
@@ -340,6 +250,8 @@
         <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/SummaryEngine.html" />
         <option value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/TextSummaryEngine.py" />
         <option value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/LogoFromDatabase.py" />
+        <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/ghub.css" />
+        <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/ghub.js" />
       </list>
     </option>
   </component>
@@ -849,18 +761,19 @@
     <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps" />
+      <recent name="$PROJECT_DIR$/PhoneGapHeloWorld/www/img" />
+      <recent name="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp" />
+      <recent name="$PROJECT_DIR$/PhoneGapHeloWorld/www/js" />
+      <recent name="$PROJECT_DIR$/PhoneGapHeloWorld/www" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/PhoneGapHeloWorld/www/img" />
       <recent name="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/bower_components" />
       <recent name="$PROJECT_DIR$/PhoneGapHeloWorld/www" />
       <recent name="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp" />
       <recent name="$PROJECT_DIR$/PhoneGapHeloWorld/www/js" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/PhoneGapHeloWorld/www/img" />
-      <recent name="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp" />
-      <recent name="$PROJECT_DIR$/PhoneGapHeloWorld/www/js" />
-      <recent name="$PROJECT_DIR$/PhoneGapHeloWorld/www" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1208,6 +1121,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24177396" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1217,7 +1131,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31076178" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31076178" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1506,19 +1420,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/ghub.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="853">
-          <caret line="155" column="58" lean-forward="false" selection-start-line="155" selection-start-column="58" selection-end-line="155" selection-end-column="58" />
-          <folding>
-            <marker date="1501184631000" expanded="true" signature="3539:3551" ph="..." />
-            <marker date="1501184631000" expanded="true" signature="3950:3961" ph="..." />
-            <marker date="1501184631000" expanded="true" signature="4374:4384" ph="..." />
-            <marker date="1501184631000" expanded="true" signature="4812:4823" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/headline.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="496">
@@ -1535,14 +1436,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/Ghub.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="45" column="2" lean-forward="false" selection-start-line="45" selection-start-column="2" selection-end-line="48" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/Headline.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
@@ -1555,14 +1448,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/css/ghub.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="42" column="1" lean-forward="false" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1591,7 +1476,7 @@
         <state relative-caret-position="359">
           <caret line="121" column="16" lean-forward="false" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="16" />
           <folding>
-            <element signature="n#style#0;n#i#0;n#p#0;n#div#4;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#p#0;n#div#4;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1609,7 +1494,7 @@
         <state relative-caret-position="152">
           <caret line="29" column="93" lean-forward="false" selection-start-line="29" selection-start-column="93" selection-end-line="29" selection-end-column="93" />
           <folding>
-            <element signature="n#style#0;n#i#0;n#p#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#p#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1619,7 +1504,7 @@
         <state relative-caret-position="283">
           <caret line="90" column="91" lean-forward="true" selection-start-line="90" selection-start-column="91" selection-end-line="90" selection-end-column="91" />
           <folding>
-            <element signature="e#0#33#0" expanded="true" />
+            <element signature="e#0#33#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1637,6 +1522,35 @@
             <marker date="1501614110000" expanded="true" signature="1610:1767" ph="SELECT name APIapp_map" />
             <marker date="1501614110000" expanded="true" signature="1651:1766" ph="SELECT mapID... APIapp_maphastags" />
             <marker date="1501614110000" expanded="true" signature="1709:1765" ph="SELECT id FR... APIapp_tag" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/css/ghub.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/Ghub.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="45" column="2" lean-forward="false" selection-start-line="45" selection-start-column="2" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/ghub.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="105" column="42" lean-forward="true" selection-start-line="105" selection-start-column="42" selection-end-line="105" selection-end-column="42" />
+          <folding>
+            <marker date="1501615818000" expanded="true" signature="3539:3551" ph="..." />
+            <marker date="1501615818000" expanded="true" signature="3950:3961" ph="..." />
+            <marker date="1501615818000" expanded="true" signature="4374:4384" ph="..." />
+            <marker date="1501615818000" expanded="true" signature="4812:4823" ph="..." />
           </folding>
         </state>
       </provider>

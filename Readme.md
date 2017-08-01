@@ -20,11 +20,9 @@ Market map database is now connected and allows a search by company.  Currently 
     the database just returns the name of the searched marketMap not the market map image itselfc
  Still need clearbit Access to complete rest of tab
 
- Things to do to make market maps more searchable:
-    -scrape market map page for all text
-    -Create tags through Google NLP entities
-    -use the google NLP again on searched companys website
-    -get market map through most matching tags
+Market maps can also be searched by tag.  Tags are created by scraping the home page text of selected company and running through
+google NLP entities.  The returned tags/entities are then matched to the tags database.  Map that has the most matched
+tags becomes the returned map.  Next step is to introduce a ranking system to prioritize the more important tags first.
 
 
 Github analysis view (tab2)
