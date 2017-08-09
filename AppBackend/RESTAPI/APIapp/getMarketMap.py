@@ -61,17 +61,27 @@ def getMapWithTag(tag,c):
 
 
 def getEntititesFromHomepageAndMatch(company, c):
-    text = TextSummaryEngine.getTextFromURL(company)
+    url = "https://autocomplete.clearbit.com/v1/companies/suggest?query={}".format(company)
+    req = requests.get(url)
+    domain = req.json()[0]['domain']
+    # text = TextSummaryEngine.getTextFromURL(company)
+    text = TextSummaryEngine.sumySummarize("http://{}".format(domain), 8)
     print text
+
+    # Call Google NLP Function
     sent, ent = TextSummaryEngine.analyzeText(text)
     mmaps = []
     for e in ent[:20]:
+        print e.name
+
         try:
             mmap = getMapWithTag(e.name, c)
             for m in mmap:
                 mmaps.append(m)
+                print "matched {} in {}".format(e.name, m)
         except:
             print "tag not found"
+    print mmaps
 
     topMatch = most_common(mmaps)[0]
     return topMatch

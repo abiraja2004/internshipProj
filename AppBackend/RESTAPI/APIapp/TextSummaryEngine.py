@@ -88,12 +88,16 @@ def analyzeText(text):
     entities = ent_analysis.entities
     return sentiment, entities
 
-
-def getTextFromURL(company):
+def getURLfromCompanyName(company):
     url = "https://autocomplete.clearbit.com/v1/companies/suggest?query={}".format(company)
     req = requests.get(url)
-    domain = req.json()[0]['domain']
-    domain = 'http://{}'.format(domain)
+    domain = "http://"+req.json()[0]['domain']
+    return domain
+
+
+def getTextFromURL(company):
+    domain = getURLfromCompanyName(company)
+    # domain = 'http://{}'.format(domain)
     req = urllib2.Request(domain, headers={'User-Agent': 'Mozilla/5.0'})
     html = urllib2.urlopen(req).read()
     soup = BeautifulSoup(html, 'html.parser')
@@ -125,11 +129,12 @@ def nltkSummarize(text):
 
 # Github Repo Sumy Summarizer https://github.com/miso-belica/sumy
 
-def sumySummarize(url):
+def sumySummarize(url, SENTENCES_COUNT):
     fullSummary = []
     LANGUAGE = 'english'
-    SENTENCES_COUNT = 3
+    # SENTENCES_COUNT = 8
     parser = HtmlParser.from_url(url, Tokenizer(LANGUAGE))
+    # parser = HtmlParser.from_string(text, "http://clarifai.com", Tokenizer(LANGUAGE))
     # or for plain text files
     # parser = PlaintextParser.from_file("document.txt", Tokenizer(LANGUAGE))
     stemmer = Stemmer(LANGUAGE)

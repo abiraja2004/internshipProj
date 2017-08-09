@@ -5,7 +5,6 @@ from rest_framework import status
 import CommitsSetupforFusion
 import GithubGo
 import totalStarsSetupforFusion
-import StarsHistoryForFusion
 import nltkclfpickle
 import starhistorybenchmarks
 import starHistoryforFusionmultiline
@@ -103,18 +102,14 @@ class summarizerEngine(APIView):
         data = request.data
         company = data["url"]
 
-        print data
         returnData = {}
         text = TextSummaryEngine.getTextFromURL(company)
         wCloud = TextSummaryEngine.convertToWordCloud(text)
+        url = TextSummaryEngine.getURLfromCompanyName(company)
         # print wCloud
         returnData['wCloud'] = wCloud
-        returnData['summaries'] = []
-        returnData['summaries'].append({'sumySummary': TextSummaryEngine.sumySummarize(url)})
-        returnData['summaries'].append({'algortithmiaSummary': TextSummaryEngine.algorithmiaSummarizer(text)})
-        returnData['summaries'].append({'nltkSummary': TextSummaryEngine.nltkSummarize(text)})
-
-
+        returnData['summaries'] = TextSummaryEngine.sumySummarize(url, 3)
+        returnData['url'] = url
 
         return Response(returnData)
 
@@ -131,11 +126,12 @@ class ghubTrending(APIView):
         pass
 
 
-class getMarketMap(APIView):
+class MarketMap(APIView):
     def get(self, request):
         pass
 
     def post(self, request):
+        print "called"
         data = request.data
         company = data['companyName']
         mmap = getMarketMap.getMapFromLogo(company)

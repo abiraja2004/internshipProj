@@ -2,19 +2,136 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16e8378e-32d5-4f21-a6a2-9a3eeae8ed77" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/GetLogo.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/StarsHistoryForFusion.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/cv2Testing.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/LogoFromDatabase.py" afterPath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/getMarketMap.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/serializers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/AICommerceMarketMap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/AICybersecurityMarketMap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/AIHealthcare.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/AIRetail.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/AgTechMarketMap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/BeautyTechMarketMap.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/BlockChainMarketMap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/CPGDistributionMarketMap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/CapitalMarketsMarketMap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/ClosetVCsMarketMap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/ConstructionTechMarketMap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/CybersecurityMarketMap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/DeepLearningMarketMap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/DigitalHospitalMarketMap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/DronesMarketMap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/EdTechMarketMap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/FemTechMarketMap.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/FintechMarketMap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/GroceryStoreTechMarketMap.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/GroceryTechMarketMap.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/HRTechMarketMap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/HomesOnDemandMarketMap.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/IOTMarketMap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/IndiaFintechMarketMap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/InvestmentWealthTechMarketMap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/LegalTechMarketMap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/MedicalDeviceMarketMap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/MobileHealthCare.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/MortgageTech.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/NextGenConstructionMarketMap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/PetTechMarketMap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/RegulationTechMarketMap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/ResidentialRealEstate.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/RestaurantTechMarketMap.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/RetailStoreTechMarketMap.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/SalesTechMarketMap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/SecurityIDManagementMarketMap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/SmallWordMicrobiomeMarketMap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/SmartCityMarketMap.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/SmartHomeMarketMap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/SmartMoneyTechMarketMap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/SpaceTechMarketMap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/SubscriptionEcommerceMarketMap.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/SupplyChainLogisticsMarketMap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/SyntheticBiologyMarketMap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/TravelTechMarketMap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/ViceTechMarketMap.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/VitaminMineralMarketMap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/WarehouseTechMarketMap.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/WearablesMarketMap.png" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/AICommerceMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/AICommerceMarketMap.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/AICybersecurityMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/AICybersecurityMarketMap.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/AIHealthcare.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/AIHealthcare.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/AIRetail.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/AIRetail.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/AgTechMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/AgTechMarketMap.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/BeautyTechMarketMap.jpg" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/BeautyTechMarketMap.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/BlockChainMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/BlockChainMarketMap.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/CPGDistributionMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/CPGDistributionMarketMap.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/CapitalMarketsMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/CapitalMarketsMarketMap.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/ClosetVCsMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/ClosetVCsMarketMap.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/ConstructionTechMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/ConstructionTechMarketMap.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/CybersecurityMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/CybersecurityMarketMap.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/DeepLearningMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/DeepLearningMarketMap.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/DigitalHospitalMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/DigitalHospitalMarketMap.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/DronesMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/DronesMarketMap.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/EdTechMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/EdTechMarketMap.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/FemTechMarketMap.jpg" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/FemTechMarketMap.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/FintechMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/FintechMarketMap.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/GroceryStoreTechMarketMap.jpg" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/GroceryStoreTechMarketMap.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/GroceryTechMarketMap.jpg" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/GroceryTechMarketMap.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/HRTechMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/HRTechMarketMap.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/HomesOnDemandMarketMap.jpg" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/HomesOnDemandMarketMap.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/IOTMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/IOTMarketMap.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/IndiaFintechMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/IndiaFintechMarketMap.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/InvestmentWealthTechMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/InvestmentWealthTechMarketMap.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/LegalTechMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/LegalTechMarketMap.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/MedicalDeviceMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/MedicalDeviceMarketMap.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/MobileHealthCare.jpg" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/MobileHealthCare.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/MortgageTech.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/MortgageTech.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/NextGenConstructionMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/NextGenConstructionMarketMap.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/PetTechMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/PetTechMarketMap.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/RegulationTechMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/RegulationTechMarketMap.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/ResidentialRealEstate.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/ResidentialRealEstate.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/RestaurantTechMarketMap.jpg" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/RestaurantTechMarketMap.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/RetailStoreTechMarketMap.jpg" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/RetailStoreTechMarketMap.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/SalesTechMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/SalesTechMarketMap.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/SecurityIDManagementMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/SecurityIDManagementMarketMap.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/SmallWordMicrobiomeMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/SmallWordMicrobiomeMarketMap.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/SmartCityMarketMap.jpg" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/SmartCityMarketMap.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/SmartHomeMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/SmartHomeMarketMap.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/SmartMoneyTechMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/SmartMoneyTechMarketMap.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/SpaceTechMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/SpaceTechMarketMap.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/SubscriptionEcommerceMarketMap.jpg" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/SubscriptionEcommerceMarketMap.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/SupplyChainLogisticsMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/SupplyChainLogisticsMarketMap.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/SyntheticBiologyMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/SyntheticBiologyMarketMap.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/TravelTechMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/TravelTechMarketMap.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/ViceTechMarketMap.jpg" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/ViceTechMarketMap.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/VitaminMineralMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/VitaminMineralMarketMap.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/WarehouseTechMarketMap.jpg" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/WarehouseTechMarketMap.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/WearablesMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/WearablesMarketMap.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AppBackend/RESTAPI/db.sqlite3" afterPath="$PROJECT_DIR$/AppBackend/RESTAPI/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/Archive.zip" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/Archive.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/Archive.zip" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/Archive.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/competition/comp" afterPath="$PROJECT_DIR$/competition/comp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/CommitsSetupforFusion.py" afterPath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/CommitsSetupforFusion.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/GithubGo.py" afterPath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/GithubGo.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/GithubScrapeTrending.py" afterPath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/GithubScrapeTrending.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/TextSummaryEngine.py" afterPath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/TextSummaryEngine.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/models.py" afterPath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/getMarketMap.py" afterPath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/getMarketMap.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/starHistoryforFusionmultiline.py" afterPath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/starHistoryforFusionmultiline.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/views.py" afterPath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AppBackend/RESTAPI/RESTAPI/urls.py" afterPath="$PROJECT_DIR$/AppBackend/RESTAPI/RESTAPI/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/Ghub.html" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/Ghub.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/Headline.html" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/Headline.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/SummaryEngine.html" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/SummaryEngine.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/css/ghub.css" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/css/ghub.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/css/index.css" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/index.html" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/js/SummaryEngine.js" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/js/SummaryEngine.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/js/ghub.js" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/js/ghub.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/js/index.js" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/js/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/Ghub.html" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/Ghub.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/Headline.html" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/Headline.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/SummaryEngine.html" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/SummaryEngine.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/ghub.css" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/ghub.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/index.css" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/index.html" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/SummaryEngine.js" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/SummaryEngine.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/ghub.js" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/ghub.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/index.js" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Readme.md" afterPath="$PROJECT_DIR$/Readme.md" />
     </list>
     <ignored path="KnowledgeVC.iws" />
@@ -28,13 +145,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/KnowledgeVC$GithubScrapeTrending.coverage" NAME="GithubScrapeTrending Coverage Results" MODIFIED="1499898080225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp" />
+    <SUITE FILE_PATH="coverage/KnowledgeVC$topContribsFollowersforFusion.coverage" NAME="topContribsFollowersforFusion Coverage Results" MODIFIED="1499290516401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp" />
+    <SUITE FILE_PATH="coverage/KnowledgeVC$LogoFromDatabase.coverage" NAME="LogoFromDatabase Coverage Results" MODIFIED="1501609367598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp" />
     <SUITE FILE_PATH="coverage/KnowledgeVC$TextSummaryEngine.coverage" NAME="TextSummaryEngine Coverage Results" MODIFIED="1499897452500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp" />
     <SUITE FILE_PATH="coverage/KnowledgeVC$starHistoryforFusionmultiline.coverage" NAME="starHistoryforFusionmultiline Coverage Results" MODIFIED="1498772102122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp" />
-    <SUITE FILE_PATH="coverage/KnowledgeVC$topContribsFollowersforFusion.coverage" NAME="topContribsFollowersforFusion Coverage Results" MODIFIED="1499290516401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp" />
-    <SUITE FILE_PATH="coverage/KnowledgeVC$GetLogo.coverage" NAME="GetLogo Coverage Results" MODIFIED="1500585641434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp" />
-    <SUITE FILE_PATH="coverage/KnowledgeVC$LogoFromDatabase.coverage" NAME="LogoFromDatabase Coverage Results" MODIFIED="1501609367598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp" />
     <SUITE FILE_PATH="coverage/KnowledgeVC$starhistorybenchmarks.coverage" NAME="starhistorybenchmarks Coverage Results" MODIFIED="1498758075058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp" />
+    <SUITE FILE_PATH="coverage/KnowledgeVC$GithubScrapeTrending.coverage" NAME="GithubScrapeTrending Coverage Results" MODIFIED="1499898080225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp" />
+    <SUITE FILE_PATH="coverage/KnowledgeVC$GetLogo.coverage" NAME="GetLogo Coverage Results" MODIFIED="1500585641434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -162,115 +279,117 @@
       </PATH_ELEMENT>
     </PATH>
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="KnowledgeVC" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/views.py">
+      <file leaf-file-name="index.js" pinned="true" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="127" column="0" lean-forward="true" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+            <state relative-caret-position="901">
+              <caret line="121" column="58" lean-forward="true" selection-start-line="121" selection-start-column="58" selection-end-line="121" selection-end-column="58" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
+                <marker date="1502225409000" expanded="true" signature="1562:1588" ph="..." />
+                <marker date="1502225409000" expanded="true" signature="1562:1589" ph="..." />
+                <marker date="1502225409000" expanded="true" signature="2548:2582" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Readme.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BeautyTechMarketMap.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/BeautyTechMarketMap.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1442">
+              <caret line="96" column="29" lean-forward="false" selection-start-line="96" selection-start-column="29" selection-end-line="96" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="102" column="29" lean-forward="false" selection-start-line="102" selection-start-column="29" selection-end-line="102" selection-end-column="29" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#1;n#ul#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#2;n#ul#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#3;n#ul#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Readme.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Readme.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="174" column="0" lean-forward="true" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
+            <state relative-caret-position="326">
+              <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/models.py">
+      <file leaf-file-name="SummaryEngine.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/SummaryEngine.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="6" column="49" lean-forward="false" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+            <state relative-caret-position="376">
+              <caret line="78" column="21" lean-forward="false" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nltkclfpickle.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/nltkclfpickle.py">
+      <file leaf-file-name="Ghub.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/Ghub.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-109">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="-939">
+              <caret line="37" column="144" lean-forward="false" selection-start-line="37" selection-start-column="144" selection-end-line="37" selection-end-column="144" />
               <folding>
-                <element signature="e#0#49#0" expanded="true" />
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1502238901000" expanded="false" signature="1978:2006" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TextSummaryEngine.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/TextSummaryEngine.py">
+      <file leaf-file-name="ghub.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/css/ghub.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-283">
-              <caret line="23" column="111" lean-forward="false" selection-start-line="23" selection-start-column="111" selection-end-line="23" selection-end-column="111" />
+            <state relative-caret-position="1090">
+              <caret line="88" column="37" lean-forward="false" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="serializers.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/serializers.py">
+      <file leaf-file-name="SummaryEngine.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/SummaryEngine.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="3" column="44" lean-forward="false" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+            <state relative-caret-position="200">
+              <caret line="68" column="114" lean-forward="false" selection-start-line="68" selection-start-column="114" selection-end-line="68" selection-end-column="114" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="starhistorybenchmarks.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/starhistorybenchmarks.py">
+      <file leaf-file-name="Headline.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/Headline.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="starHistoryforFusionmultiline.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/starHistoryforFusionmultiline.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="totalStarsSetupforFusion.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/totalStarsSetupforFusion.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="topContribsFollowersforFusion.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/topContribsFollowersforFusion.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="495">
+              <caret line="33" column="114" lean-forward="false" selection-start-line="33" selection-start-column="114" selection-end-line="33" selection-end-column="114" />
               <folding />
             </state>
           </provider>
@@ -310,35 +429,43 @@
         <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/piStockTicker.py" />
         <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/headline.css" />
         <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/summaryEngine.css" />
-        <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/Ghub.html" />
-        <option value="$PROJECT_DIR$/AppBackend/RESTAPI/RESTAPI/urls.py" />
         <option value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/cv2Testing.py" />
         <option value="$PROJECT_DIR$/AppBackend/RESTAPI/RESTAPI/settings.py" />
         <option value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/GetLogo.py" />
         <option value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/serializers.py" />
         <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/headline.js" />
-        <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/SummaryEngine.js" />
-        <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/index.css" />
-        <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/index.js" />
-        <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/index.html" />
-        <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/SummaryEngine.html" />
-        <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/ghub.css" />
-        <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/ghub.js" />
-        <option value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/views.py" />
         <option value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/CommitsSetupforFusion.py" />
         <option value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/GithubScrapeTrending.py" />
         <option value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/LogoFromDatabase.py" />
-        <option value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/getMarketMap.py" />
-        <option value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/GithubGo.py" />
-        <option value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/starHistoryforFusionmultiline.py" />
-        <option value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/TextSummaryEngine.py" />
         <option value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/models.py" />
+        <option value="$PROJECT_DIR$/AppBackend/RESTAPI/RESTAPI/urls.py" />
+        <option value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/GithubGo.py" />
+        <option value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/views.py" />
+        <option value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/TextSummaryEngine.py" />
+        <option value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/getMarketMap.py" />
+        <option value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/starHistoryforFusionmultiline.py" />
+        <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/ghub.js" />
+        <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/SummaryEngine.html" />
+        <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/Headline.html" />
+        <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/index.js" />
+        <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/SummaryEngine.js" />
         <option value="$PROJECT_DIR$/Readme.md" />
+        <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/ghub.css" />
+        <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/Ghub.html" />
+        <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/index.css" />
+        <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/index.html" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -348,9 +475,10 @@
     <handled-path value="$PROJECT_DIR$/competition/comp/node_modules" />
     <handled-path value="$PROJECT_DIR$/competition/competition/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="817" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -371,430 +499,88 @@
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KnowledgeVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KnowledgeVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KnowledgeVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KnowledgeVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PhoneGapHeloWorld" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KnowledgeVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KnowledgeVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PhoneGapHeloWorld" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KnowledgeVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KnowledgeVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PhoneGapHeloWorld" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="screens" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KnowledgeVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KnowledgeVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PhoneGapHeloWorld" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="icons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KnowledgeVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KnowledgeVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PhoneGapHeloWorld" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KnowledgeVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KnowledgeVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PhoneGapHeloWorld" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fusioncharts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KnowledgeVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KnowledgeVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PhoneGapHeloWorld" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KnowledgeVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KnowledgeVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PhoneGapHeloWorld" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taggedMarketMaps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KnowledgeVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KnowledgeVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PhoneGapHeloWorld" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KnowledgeVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KnowledgeVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="competition" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="competition" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KnowledgeVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KnowledgeVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="competition" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="competition" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KnowledgeVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KnowledgeVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="competition" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KnowledgeVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KnowledgeVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppBackend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RESTAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KnowledgeVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KnowledgeVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppBackend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RESTAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KnowledgeVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KnowledgeVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppBackend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RESTAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RESTAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KnowledgeVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KnowledgeVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppBackend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RESTAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RESTAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KnowledgeVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KnowledgeVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppBackend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RESTAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RESTAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KnowledgeVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KnowledgeVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppBackend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RESTAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="APIapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KnowledgeVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KnowledgeVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppBackend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="KnowledgeVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KnowledgeVC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KnowledgeVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KnowledgeVC" type="462c0819:PsiDirectoryNode" />
+              <item name="AppBackend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KnowledgeVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KnowledgeVC" type="462c0819:PsiDirectoryNode" />
+              <item name="AppBackend" type="462c0819:PsiDirectoryNode" />
+              <item name="RESTAPI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KnowledgeVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KnowledgeVC" type="462c0819:PsiDirectoryNode" />
+              <item name="AppBackend" type="462c0819:PsiDirectoryNode" />
+              <item name="RESTAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="APIapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KnowledgeVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KnowledgeVC" type="462c0819:PsiDirectoryNode" />
+              <item name="AppBackend" type="462c0819:PsiDirectoryNode" />
+              <item name="RESTAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="RESTAPI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KnowledgeVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KnowledgeVC" type="462c0819:PsiDirectoryNode" />
+              <item name="competition" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KnowledgeVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KnowledgeVC" type="462c0819:PsiDirectoryNode" />
+              <item name="competition" type="462c0819:PsiDirectoryNode" />
+              <item name="competition" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KnowledgeVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KnowledgeVC" type="462c0819:PsiDirectoryNode" />
+              <item name="competition" type="462c0819:PsiDirectoryNode" />
+              <item name="competition" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KnowledgeVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KnowledgeVC" type="462c0819:PsiDirectoryNode" />
+              <item name="PhoneGapHeloWorld" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KnowledgeVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KnowledgeVC" type="462c0819:PsiDirectoryNode" />
+              <item name="PhoneGapHeloWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KnowledgeVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KnowledgeVC" type="462c0819:PsiDirectoryNode" />
+              <item name="PhoneGapHeloWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KnowledgeVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KnowledgeVC" type="462c0819:PsiDirectoryNode" />
+              <item name="PhoneGapHeloWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KnowledgeVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KnowledgeVC" type="462c0819:PsiDirectoryNode" />
+              <item name="PhoneGapHeloWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
     </panes>
@@ -810,22 +596,21 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/Hallshit/Documents/KnowledgeVC/AppBackend/RESTAPI/APIapp/views.py" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)" />
-    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps" />
-      <recent name="$PROJECT_DIR$/PhoneGapHeloWorld/www/img" />
-      <recent name="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp" />
-      <recent name="$PROJECT_DIR$/PhoneGapHeloWorld/www/js" />
-      <recent name="$PROJECT_DIR$/PhoneGapHeloWorld/www" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/PhoneGapHeloWorld/www/img" />
       <recent name="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/bower_components" />
       <recent name="$PROJECT_DIR$/PhoneGapHeloWorld/www" />
       <recent name="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp" />
       <recent name="$PROJECT_DIR$/PhoneGapHeloWorld/www/js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps" />
+      <recent name="$PROJECT_DIR$/PhoneGapHeloWorld/www/img" />
+      <recent name="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp" />
+      <recent name="$PROJECT_DIR$/PhoneGapHeloWorld/www/js" />
+      <recent name="$PROJECT_DIR$/PhoneGapHeloWorld/www" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -841,64 +626,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.LogoFromDatabase">
-    <configuration default="false" name="topContribsFollowersforFusion" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="KnowledgeVC" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/topContribsFollowersforFusion.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TextSummaryEngine" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="KnowledgeVC" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/TextSummaryEngine.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="GithubScrapeTrending" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="KnowledgeVC" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/GithubScrapeTrending.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="GetLogo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="GetLogo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -915,9 +643,26 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <method />
     </configuration>
-    <configuration default="false" name="LogoFromDatabase" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="GithubScrapeTrending" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="KnowledgeVC" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/GithubScrapeTrending.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="LogoFromDatabase" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -934,7 +679,32 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <method />
+    </configuration>
+    <configuration name="TextSummaryEngine" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="KnowledgeVC" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/TextSummaryEngine.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1032,15 +802,6 @@
       <module name="KnowledgeVC" />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run" />
       <scripts />
@@ -1118,22 +879,6 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.topContribsFollowersforFusion" />
-      <item index="1" class="java.lang.String" itemvalue="Python.TextSummaryEngine" />
-      <item index="2" class="java.lang.String" itemvalue="Python.GithubScrapeTrending" />
-      <item index="3" class="java.lang.String" itemvalue="Python.GetLogo" />
-      <item index="4" class="java.lang.String" itemvalue="Python.LogoFromDatabase" />
-    </list>
-    <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.LogoFromDatabase" />
-        <item index="1" class="java.lang.String" itemvalue="Python.GetLogo" />
-        <item index="2" class="java.lang.String" itemvalue="Python.GithubScrapeTrending" />
-        <item index="3" class="java.lang.String" itemvalue="Python.TextSummaryEngine" />
-        <item index="4" class="java.lang.String" itemvalue="Python.topContribsFollowersforFusion" />
-      </list>
-    </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1154,6 +899,40 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
+    <configuration name="topContribsFollowersforFusion" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="KnowledgeVC" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/topContribsFollowersforFusion.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.topContribsFollowersforFusion" />
+      <item index="1" class="java.lang.String" itemvalue="Python.TextSummaryEngine" />
+      <item index="2" class="java.lang.String" itemvalue="Python.GithubScrapeTrending" />
+      <item index="3" class="java.lang.String" itemvalue="Python.GetLogo" />
+      <item index="4" class="java.lang.String" itemvalue="Python.LogoFromDatabase" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.LogoFromDatabase" />
+        <item index="1" class="java.lang.String" itemvalue="Python.GetLogo" />
+        <item index="2" class="java.lang.String" itemvalue="Python.GithubScrapeTrending" />
+        <item index="3" class="java.lang.String" itemvalue="Python.TextSummaryEngine" />
+        <item index="4" class="java.lang.String" itemvalue="Python.topContribsFollowersforFusion" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -1175,25 +954,25 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25608012" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29020557" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282967" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31076178" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24177396" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31076178" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282967" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1218,7 +997,7 @@
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
@@ -1239,110 +1018,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="dbDummy://dbtable:/96e1d0d4/3b05a926-6ff3-4087-9fb5-135e84a682ea/main.APIapp_map">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/96e1d0d4/3b05a926-6ff3-4087-9fb5-135e84a682ea/main.APIapp_maphaslogo">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/96e1d0d4/3b05a926-6ff3-4087-9fb5-135e84a682ea/main.APIapp_tag">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/96e1d0d4/3b05a926-6ff3-4087-9fb5-135e84a682ea/main.APIapp_maphastags">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/SummaryEngine.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="78" column="59" lean-forward="false" selection-start-line="78" selection-start-column="59" selection-end-line="78" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/wordcloud2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/AIHealthcare.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/DronesMarketMap.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/CPGDistributionMarketMap.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/ConstructionTechMarketMap.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/IOTMarketMap.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/ViceTechMarketMap.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/SecurityIDManagementMarketMap.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/competition/competition/js/search.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/competition/competition/search.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1350,42 +1025,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/SupplyChainLogisticsMarketMap.png">
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/SupplyChainLogisticsMarketMap.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/SmallWordMicrobiomeMarketMap.png">
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/SmallWordMicrobiomeMarketMap.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/MedicalDeviceMarketMap.png">
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/MedicalDeviceMarketMap.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/LegalTechMarketMap.png">
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/LegalTechMarketMap.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/RestaurantTechMarketMap.jpg">
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/RestaurantTechMarketMap.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/NextGenConstructionMarketMap.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/AIRetail.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/AICommerceMarketMap.png">
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/NextGenConstructionMarketMap.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -1394,7 +1059,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="496">
           <caret line="47" column="31" lean-forward="true" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1402,216 +1066,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/Headline.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/css/summaryEngine.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="72" column="21" lean-forward="false" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
-          <folding>
-            <marker date="1501612943000" expanded="true" signature="2337:2371" ph="..." />
-            <marker date="1501612943000" expanded="true" signature="2372:2411" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="121" column="16" lean-forward="false" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="16" />
-          <folding>
-            <element signature="n#style#0;n#i#0;n#p#0;n#div#4;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/SummaryEngine.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="29" column="93" lean-forward="false" selection-start-line="29" selection-start-column="93" selection-end-line="29" selection-end-column="93" />
-          <folding>
-            <element signature="n#style#0;n#i#0;n#p#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/css/ghub.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/Ghub.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="45" column="2" lean-forward="false" selection-start-line="45" selection-start-column="2" selection-end-line="48" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/ghub.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="105" column="42" lean-forward="true" selection-start-line="105" selection-start-column="42" selection-end-line="105" selection-end-column="42" />
-          <folding>
-            <marker date="1501615818000" expanded="true" signature="3539:3551" ph="..." />
-            <marker date="1501615818000" expanded="true" signature="3950:3961" ph="..." />
-            <marker date="1501615818000" expanded="true" signature="4374:4384" ph="..." />
-            <marker date="1501615818000" expanded="true" signature="4812:4823" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/cv2Testing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-362">
-          <caret line="78" column="35" lean-forward="false" selection-start-line="78" selection-start-column="35" selection-end-line="78" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/GetLogo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-244">
-          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/CommitsSetupforFusion.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/getMarketMap.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="42" column="21" lean-forward="false" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
-          <folding>
-            <element signature="e#232#246#0" expanded="true" />
-            <marker date="1501624869000" expanded="true" signature="1663:1711" ph="SELECT * FRO... APIapp_logo" />
-            <marker date="1501624869000" expanded="true" signature="1769:1943" ph="SELECT name APIapp_map" />
-            <marker date="1501624869000" expanded="true" signature="1821:1942" ph="SELECT mapID... APIapp_maphaslogo" />
-            <marker date="1501624869000" expanded="true" signature="1880:1941" ph="SELECT id FR... APIapp_logo" />
-            <marker date="1501624869000" expanded="true" signature="2168:2325" ph="SELECT name APIapp_map" />
-            <marker date="1501624869000" expanded="true" signature="2209:2324" ph="SELECT mapID... APIapp_maphastags" />
-            <marker date="1501624869000" expanded="true" signature="2267:2323" ph="SELECT id FR... APIapp_tag" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/GithubGo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-807">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/GithubScrapeTrending.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="85" lean-forward="false" selection-start-line="8" selection-start-column="85" selection-end-line="8" selection-end-column="85" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/cv2Testing.py" />
+    <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/GetLogo.py" />
     <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/nltkclfpickle.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-109">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/serializers.py">
+    <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/StarsHistoryForFusion.py" />
+    <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/CommitsSetupforFusion.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="3" column="44" lean-forward="false" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/StarsHistoryForFusion.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-341">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="345">
+          <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/totalStarsSetupforFusion.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-919">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/TextSummaryEngine.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-283">
-          <caret line="23" column="111" lean-forward="false" selection-start-line="23" selection-start-column="111" selection-end-line="23" selection-end-column="111" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/starHistoryforFusionmultiline.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="49" lean-forward="false" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1619,33 +1097,239 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/starhistorybenchmarks.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/serializers.py" />
+    <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="49" lean-forward="false" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/GithubGo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/96e1d0d4/3b05a926-6ff3-4087-9fb5-135e84a682ea/main.APIapp_map" />
+    <entry file="dbDummy://dbtable:/96e1d0d4/3b05a926-6ff3-4087-9fb5-135e84a682ea/main.APIapp_maphastags" />
+    <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/GithubScrapeTrending.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="22" column="50" lean-forward="false" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/96e1d0d4/3b05a926-6ff3-4087-9fb5-135e84a682ea/main.APIapp_tag" />
+    <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/RESTAPI/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="31" column="1" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/TextSummaryEngine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1935">
+          <caret line="148" column="29" lean-forward="false" selection-start-line="148" selection-start-column="29" selection-end-line="148" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/getMarketMap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="67" column="40" lean-forward="false" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/starHistoryforFusionmultiline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2700">
+          <caret line="185" column="30" lean-forward="false" selection-start-line="185" selection-start-column="30" selection-end-line="185" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/css/summaryEngine.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="4" lean-forward="false" selection-start-line="41" selection-start-column="4" selection-end-line="42" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/competition/competition/js/search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="127" column="0" lean-forward="true" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+        <state relative-caret-position="402">
+          <caret line="137" column="29" lean-forward="false" selection-start-line="137" selection-start-column="29" selection-end-line="137" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/ghub.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="99" column="68" lean-forward="false" selection-start-line="99" selection-start-column="68" selection-end-line="99" selection-end-column="68" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <marker date="1502133711000" expanded="true" signature="1548:1575" ph="..." />
+            <marker date="1502133711000" expanded="true" signature="3833:3845" ph="..." />
+            <marker date="1502133711000" expanded="true" signature="4252:4263" ph="..." />
+            <marker date="1502133711000" expanded="true" signature="4688:4698" ph="..." />
+            <marker date="1502133711000" expanded="true" signature="5138:5149" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/AgTechMarketMap.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/AICommerceMarketMap.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/AICybersecurityMarketMap.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/AIHealthcare.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/AIRetail.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/BlockChainMarketMap.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/CapitalMarketsMarketMap.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/ClosetVCsMarketMap.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/ConstructionTechMarketMap.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/BeautyTechMarketMap.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/SummaryEngine.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="68" column="114" lean-forward="false" selection-start-line="68" selection-start-column="114" selection-end-line="68" selection-end-column="114" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/Headline.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="114" lean-forward="false" selection-start-line="33" selection-start-column="114" selection-end-line="33" selection-end-column="114" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/SummaryEngine.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="78" column="21" lean-forward="false" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="174" column="0" lean-forward="true" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
+        <state relative-caret-position="326">
+          <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/Ghub.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-939">
+          <caret line="37" column="144" lean-forward="false" selection-start-line="37" selection-start-column="144" selection-end-line="37" selection-end-column="144" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1502238901000" expanded="false" signature="1978:2006" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="121" column="58" lean-forward="true" selection-start-line="121" selection-start-column="58" selection-end-line="121" selection-end-column="58" />
+          <folding>
+            <marker date="1502225409000" expanded="true" signature="1562:1588" ph="..." />
+            <marker date="1502225409000" expanded="true" signature="1562:1589" ph="..." />
+            <marker date="1502225409000" expanded="true" signature="2548:2582" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/css/ghub.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1090">
+          <caret line="88" column="37" lean-forward="false" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1442">
+          <caret line="96" column="29" lean-forward="false" selection-start-line="96" selection-start-column="29" selection-end-line="96" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="102" column="29" lean-forward="false" selection-start-line="102" selection-start-column="29" selection-end-line="102" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#1;n#ul#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#2;n#ul#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#3;n#ul#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

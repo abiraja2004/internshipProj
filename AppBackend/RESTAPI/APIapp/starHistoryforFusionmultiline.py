@@ -76,10 +76,6 @@ def convertData(repo):
     fusionChart['categories'] = [{'category': [{'label': 0}]}]
     for x in range(1,25):
         fusionChart['categories'][0]['category'].append({'label': x})
-        print x
-
-    # pdb.set_trace()
-
 
     # convert into pandas dataframe
 
@@ -94,7 +90,7 @@ def convertData(repo):
 
 
     df['label'] = df.index
-    # pdb.set_trace()
+
     # subtracts each date from the first date to get the number of months between
     # this will be the label for x axis
     df['label'] = df['label'] - df['label'].iloc[0]

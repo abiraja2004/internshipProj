@@ -27,7 +27,7 @@
     <title>Hello World</title>
 </head>
 
-<body style="background-color: #b8eaed">
+<body style="background-image: url('img/KVCbg3.png')">
     <div ng-app="searchApp">
     <!--Controller Begins-->
     <div ng-controller="searchCtrl">
@@ -42,11 +42,11 @@
     <div class="container" id="FormHeadContainer">
         <!--Add Filter Dropdown-->
 
-        <div class="dropdown pt-2">
+        <div class="dropdown pt-2" style="visibility: hidden">
   <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="filterMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Add filters
   </button>
-  <div class="dropdown-menu" aria-labelledby="filterMenu">
+  <div class="dropdown-menu" aria-labelledby="filterMenu" >
     <button class="dropdown-item" type="button" ng-repeat="x in filters" ng-if="$index>0" ng-click="filterSelect(x)">{{x}}</button>
   </div>
 
@@ -67,7 +67,7 @@
             </div>
 
 
-            <div class="form-group row" ng-repeat="f in selectedFilters" ng-hide="filterhide">
+            <div class="form-group row" ng-repeat="f in selectedFilters" ng-hide="filterhide" >
                  <label class="col-sm-2 col-form-label"></label>
                  <div class="col-sm-10">
                     <input id="{{f}}" class="form-control" type="text" placeholder="{{f}}">
@@ -81,27 +81,39 @@
 <!--{#            Form Ends-->
 </div>
         <!--Form and Header container ends ^^-->
-<div id="logo">
 
-        </div>
-    <!--Table-->
+<div class="mainSection row mx-auto" ng-hide="mainHide">
+    <!-- Market map -->
 
-<div id="mmap">
 
+    <div class="wcloud mx-auto pt-3">
+
+    </div>
+<HR width="90%">
+
+    <div id="summary" class=" mx-auto">
+
+
+        <h4 id="compOver"  style="margin: 20px; text-align: center;">Company overview</h4>
+        <p id="summParagraph"> {{ summaries }}</p>
+    </div>
+
+<HR width="90%">
+
+<div id="mmap" class="mx-auto">
 
 </div>
-    <table>
 
+    <p id="companyLink"> <a href="{{ link }}"> {{ link }}</a></p>
 
-    </table>
-
+</div>
     <!--Navibar starts-->
 
 <div class="row fixed-bottom justify-content-center" id="navrow">
     <ul class="nav">
 
   <li class="nav-item ">
-    <a class="nav-link active" href="index.html"><img style="width: 70%; height: 75% " src="img/group-32.png"></a>
+    <a class="nav-link active" href="index.html"><img style="max-width: 80%; max-height: 80%" src="img/greyTargetIcon.png"></a>
   </li>
 
   <li class="nav-item">
@@ -117,13 +129,14 @@
 
 </div>
 
+        <!--
         <div class="row mx-auto pt-5" id="loadspinner">
             <p class="text-center mx-auto" ng-hide="loaderBool">
                 <i class="fa fa-spinner fa-spin" style="font-size:36px; color:white"></i>
              </p>
 
     </div>
-
+-->
 
 </div>
     <!--Container ends ^^-->
@@ -137,6 +150,7 @@
 
 
 <script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/wordcloud2.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
 <script type="text/javascript">
         app.initialize();

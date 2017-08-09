@@ -21,7 +21,7 @@
     <title>Github</title>
 </head>
 
-<body>
+<body style="background-image: url('img/KVCbg3.png')">
 <div ng-app="ghubApp">
 <div ng-controller="ghubCtrl">
 
@@ -35,7 +35,7 @@
                  <div class="form-group row">
 
                      <div class="col-sm-10">
-                        <input id="companyName" ng-model="companyName" class="form-control" name="companyName" type="text" placeholder="Company Name">
+                        <input id="companyName" ng-model="companyName" class="form-control" name="companyName" type="text" placeholder="Github Repo">
                      </div>
                  </div>
             </form>
@@ -43,12 +43,14 @@
     </div>
         <!-- search bar container ends -->
 
-    <p id="loadspinner" class="text-center mx-auto" ng-hide="loaderHide">
+   <!-- <p id="loadspinner" class="text-center mx-auto" ng-hide="loaderHide">
         <i class="fa fa-spinner fa-spin" style="font-size:36px; color: white"></i>
     </p>
-
+-->
 
 <!-- Github trending recommendations -->
+
+<div class="mainSect">
 
 <div class="container animate-hide trending-container" ng-repeat="repo in trendingData" ng-hide="trendingHide">
     <a ng-click="submitSearch(repo.repo)">
@@ -56,7 +58,7 @@
         <div class="outer-triangle"></div>
 
             <p class="repoHeader">{{ repo.repo }}</p>
-            <p class="repoDescription">{{ repo.description }}</p>
+            <p class="repoDescription">{{ repo.description | limitTo: 80 }} <span ng-if="repo.description.length > 80">...</span></p>
             <div class="tags">
                 <p class="d-inline" ng-repeat="(key, value) in repo.tags | limitTo: tagLimit">{{ value[0] | limitTo: 15 }} | </p>
                 <p class="d-inline"> &#x2606 {{ repo.stars }}</p>
@@ -65,19 +67,37 @@
         </div>
     </a>
     </div>
-</div>
 
 
-<!--    Commit Chart Starts  -->
+<!-- Fusion Charts -->
 
 <div id="chartsdiv" class="pb-5"  style="width:100%">
+    <div class="starGrowth Chart mx-auto">
+
+    </div>
+    <div class="commit Chart mx-auto">
+
+    </div>
+    <div class="totalStars Chart mx-auto">
+
+    </div>
+    <div class="Chart contribFoll mx-auto">
+
+    </div>
+
+
+</div>
+
+</div>
+<!--    Commit Chart Starts  -->
+
 <!--<div class="row mx-auto" style="width:100%"><fusioncharts max-height="400" width="80%" type="line" datasource="{{myDataSource}}"></fusioncharts></div>
 <div class="row mx-auto"><fusioncharts max-height="400" width="100%" type="line" datasource="{{commit52}}"></fusioncharts></div>-->
-</div>
+
         <br>
         <br>
 <!--    Container Ends -->
-
+</div>
     </div>
 
 
@@ -87,7 +107,7 @@
     <ul class="nav">
 
   <li class="nav-item ">
-    <a class="nav-link active" href="index.html"><img style="max-width: 80%; max-height: 80% " src="img/group-32.png"></a>
+    <a class="nav-link active" href="index.html"><img style="max-width: 80%; max-height: 80% " src="img/greyTargetIcon.png"></a>
   </li>
 
   <li class="nav-item">

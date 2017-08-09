@@ -5,13 +5,41 @@
 }
 
 #loadspinner {
-    position: absolute;
-    left: 50%;
-    top: 50%;
+    position: relative;
+
 
 }
 
+#summary {
+    background-color: rgba(255, 255, 255, .35);
+    opacity: 50;
+    width: 100%;
+    align-self: center;
+    margin: auto;
+}
 
+.wcloud {
+    width: 100%;
+}
+
+#wordCloud {
+    width: 100%;
+
+}
+
+.mainSection {
+    height: 75vh;
+    overflow-y: scroll;
+}
+
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+}
 .nav-item a{
     border: black thick;
     width: 25%;
@@ -39,6 +67,22 @@
 
 }
 
+p {
+    font-size: 16px;
+    width: 90%;
+    margin: 20px;
+    text-align: justify;
+    color: #6a6c70;
+    word-spacing: 2px;
+
+
+}
+
+#compOver {
+    color: #6a6c70;
+}
+
+
 
 ul.nav li a {
     display: inline-block;
@@ -49,9 +93,130 @@ ul.nav li a {
     text-align: center;
 }
 
+input {
+    background: rgba(255,255,255,.9);
+}
+
 body {
     height: 100vh;
-    background: linear-gradient(#7b97c4, white);
-    background-attachment: fixed;
+
+    /*background: linear-gradient(#7b97c4, white);*/
+    /*background-attachment: fixed;*/
     background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/* Light box for image enlarge  */
+
+a.lightbox img {
+height: 150px;
+border: 3px solid white;
+box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+margin: 94px 20px 20px 20px;
+}
+
+/* Styles the lightbox, removes it from sight and adds the fade-in transition */
+
+.lightbox-target {
+position: fixed;
+top: -100%;
+width: 100%;
+background: rgba(0,0,0,.7);
+width: 100%;
+opacity: 0;
+-webkit-transition: opacity .5s ease-in-out;
+-moz-transition: opacity .5s ease-in-out;
+-o-transition: opacity .5s ease-in-out;
+transition: opacity .5s ease-in-out;
+overflow: hidden;
+}
+
+/* Styles the lightbox image, centers it vertically and horizontally, adds the zoom-in transition and makes it responsive using a combination of margin and absolute positioning */
+
+.lightbox-target img {
+margin: auto;
+position: absolute;
+top: 0;
+left:0;
+right:0;
+bottom: 0;
+max-height: 0%;
+max-width: 0%;
+border: 3px solid white;
+box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+box-sizing: border-box;
+-webkit-transition: .5s ease-in-out;
+-moz-transition: .5s ease-in-out;
+-o-transition: .5s ease-in-out;
+transition: .5s ease-in-out;
+}
+
+/* Styles the close link, adds the slide down transition */
+
+a.lightbox-close {
+display: block;
+width:50px;
+height:50px;
+box-sizing: border-box;
+background: white;
+color: black;
+text-decoration: none;
+position: absolute;
+top: -80px;
+right: 0;
+-webkit-transition: .5s ease-in-out;
+-moz-transition: .5s ease-in-out;
+-o-transition: .5s ease-in-out;
+transition: .5s ease-in-out;
+}
+
+/* Provides part of the "X" to eliminate an image from the close link */
+
+a.lightbox-close:before {
+content: "";
+display: block;
+height: 30px;
+width: 1px;
+background: black;
+position: absolute;
+left: 26px;
+top:10px;
+-webkit-transform:rotate(45deg);
+-moz-transform:rotate(45deg);
+-o-transform:rotate(45deg);
+transform:rotate(45deg);
+}
+
+/* Provides part of the "X" to eliminate an image from the close link */
+
+a.lightbox-close:after {
+content: "";
+display: block;
+height: 30px;
+width: 1px;
+background: black;
+position: absolute;
+left: 26px;
+top:10px;
+-webkit-transform:rotate(-45deg);
+-moz-transform:rotate(-45deg);
+-o-transform:rotate(-45deg);
+transform:rotate(-45deg);
+}
+
+/* Uses the :target pseudo-class to perform the animations upon clicking the .lightbox-target anchor */
+
+.lightbox-target:target {
+opacity: 1;
+top: 0;
+bottom: 0;
+}
+
+.lightbox-target:target img {
+max-height: 100%;
+max-width: 100%;
+}
+
+.lightbox-target:target a.lightbox-close {
+top: 0px;
 }

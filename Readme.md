@@ -10,19 +10,22 @@ APPBACKEND - Holds the Django API framework
 
 
 
-
 clearbit analysis view (tab1)
 ----------------------------
 Market map database is now connected and allows a search by company.  Currently contains about 50 marketMaps all collected
- from CB insights.
+ from CB insights.  I got and tagged almost every market map found on CB insights except for about 8-10.  They didn't have their companies
+ listed so these can be added manually.
 
- Images for market maps are located in [www/img/taggedMarketMaps](https://github.com/Knowledgevc-org/ios/blob/master/PhoneGapHeloWorld/www/img/taggedMarketMaps)
-    the database just returns the name of the searched marketMap not the market map image itselfc
+ Feature added:  If company not found in any market maps, then search will look for matching tags based on google "entity"
+ results derived from the homepage of the searched company.
+
+ Images for market maps are located in [www/img/](https://github.com/Knowledgevc-org/ios/blob/master/PhoneGapHeloWorld/www/img)
+
+I have included the word cloud and summarizer from tab4 to this page as well since they both search by company.  I thought the
+tab looked better with more results.
+
  Still need clearbit Access to complete rest of tab
 
-Market maps can also be searched by tag.  Tags are created by scraping the home page text of selected company and running through
-google NLP entities.  The returned tags/entities are then matched to the tags database.  Map that has the most matched
-tags becomes the returned map.  Next step is to introduce a ranking system to prioritize the more important tags first.
 
 
 Github analysis view (tab2)
@@ -100,6 +103,7 @@ Summary Engine view (tab4)
 --------------------------
 
 ### Search function
+
 
 * route = "api/summarizerEngine/"
 

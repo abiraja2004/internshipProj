@@ -63,10 +63,13 @@ summaryEngApp.controller('summaryEngCtrl', ['$scope', '$compile', function($scop
                         response = JSON.parse(xhr.responseText);
 
                         //WordCloud generator
-                        WordCloud(document.getElementById('wordCloud'), { list: response['wCloud'], backgroundColor: 'white' } )
+                        WordCloud(document.getElementById('wordCloud'), { list: response['wCloud'], backgroundColor: 'white', shape:'diamond' } )
 
                         //Updates $scope
                         $scope.summaries = response['summaries'];
+                        if ($scope.summaries == ""){
+                            $scope.summaries = "Summary was not found"
+                        }
                         $scope.loaderBool = true;
                         $scope.wcHide = false;
 
@@ -76,7 +79,7 @@ summaryEngApp.controller('summaryEngCtrl', ['$scope', '$compile', function($scop
                     }
                 };
 
-                xhr.open('POST',  "http://69609fd2.ngrok.io/api/summarizerEngine", true);
+                xhr.open('POST',  "https://1c8ac5ae.ngrok.io/api/summarizerEngine", true);
                 xhr.setRequestHeader("Content-Type", "application/json");
                 xhr.send(JSON.stringify({'url': url}));
     }
