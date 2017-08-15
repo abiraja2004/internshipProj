@@ -73,7 +73,7 @@ var searchApp = angular.module('searchApp', []);
                     results = JSON.parse(xhr.responseText);
                     console.log(JSON.parse(xhr.responseText));
                     var mmap = results['mmap'];
-                    var mmapElement = "<img style='max-width: 100%; max-height: 100%;'src='/img/" + mmap + "'>"
+                    var mmapElement = "<img style='max-width: 100%; max-height: 100%;'src='img/" + mmap + "'>"
                     $('#mmap').html(mmapElement);
                     $scope.$apply()
                 };

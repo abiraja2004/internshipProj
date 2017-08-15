@@ -2,137 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16e8378e-32d5-4f21-a6a2-9a3eeae8ed77" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/serializers.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/AICommerceMarketMap.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/AICybersecurityMarketMap.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/AIHealthcare.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/AIRetail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/AgTechMarketMap.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/BeautyTechMarketMap.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/BlockChainMarketMap.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/CPGDistributionMarketMap.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/CapitalMarketsMarketMap.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/ClosetVCsMarketMap.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/ConstructionTechMarketMap.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/CybersecurityMarketMap.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/DeepLearningMarketMap.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/DigitalHospitalMarketMap.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/DronesMarketMap.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/EdTechMarketMap.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/FemTechMarketMap.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/FintechMarketMap.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/GroceryStoreTechMarketMap.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/GroceryTechMarketMap.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/HRTechMarketMap.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/HomesOnDemandMarketMap.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/IOTMarketMap.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/IndiaFintechMarketMap.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/InvestmentWealthTechMarketMap.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/LegalTechMarketMap.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/MedicalDeviceMarketMap.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/MobileHealthCare.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/MortgageTech.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/NextGenConstructionMarketMap.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/PetTechMarketMap.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/RegulationTechMarketMap.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/ResidentialRealEstate.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/RestaurantTechMarketMap.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/RetailStoreTechMarketMap.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/SalesTechMarketMap.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/SecurityIDManagementMarketMap.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/SmallWordMicrobiomeMarketMap.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/SmartCityMarketMap.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/SmartHomeMarketMap.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/SmartMoneyTechMarketMap.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/SpaceTechMarketMap.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/SubscriptionEcommerceMarketMap.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/SupplyChainLogisticsMarketMap.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/SyntheticBiologyMarketMap.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/TravelTechMarketMap.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/ViceTechMarketMap.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/VitaminMineralMarketMap.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/WarehouseTechMarketMap.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/taggedMarketMaps/WearablesMarketMap.png" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/AICommerceMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/AICommerceMarketMap.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/AICybersecurityMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/AICybersecurityMarketMap.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/AIHealthcare.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/AIHealthcare.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/AIRetail.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/AIRetail.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/AgTechMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/AgTechMarketMap.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/BeautyTechMarketMap.jpg" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/BeautyTechMarketMap.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/BlockChainMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/BlockChainMarketMap.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/CPGDistributionMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/CPGDistributionMarketMap.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/CapitalMarketsMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/CapitalMarketsMarketMap.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/ClosetVCsMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/ClosetVCsMarketMap.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/ConstructionTechMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/ConstructionTechMarketMap.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/CybersecurityMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/CybersecurityMarketMap.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/DeepLearningMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/DeepLearningMarketMap.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/DigitalHospitalMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/DigitalHospitalMarketMap.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/DronesMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/DronesMarketMap.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/EdTechMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/EdTechMarketMap.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/FemTechMarketMap.jpg" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/FemTechMarketMap.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/FintechMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/FintechMarketMap.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/GroceryStoreTechMarketMap.jpg" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/GroceryStoreTechMarketMap.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/GroceryTechMarketMap.jpg" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/GroceryTechMarketMap.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/HRTechMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/HRTechMarketMap.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/HomesOnDemandMarketMap.jpg" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/HomesOnDemandMarketMap.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/IOTMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/IOTMarketMap.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/IndiaFintechMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/IndiaFintechMarketMap.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/InvestmentWealthTechMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/InvestmentWealthTechMarketMap.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/LegalTechMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/LegalTechMarketMap.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/MedicalDeviceMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/MedicalDeviceMarketMap.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/MobileHealthCare.jpg" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/MobileHealthCare.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/MortgageTech.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/MortgageTech.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/NextGenConstructionMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/NextGenConstructionMarketMap.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/PetTechMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/PetTechMarketMap.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/RegulationTechMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/RegulationTechMarketMap.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/ResidentialRealEstate.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/ResidentialRealEstate.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/RestaurantTechMarketMap.jpg" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/RestaurantTechMarketMap.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/RetailStoreTechMarketMap.jpg" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/RetailStoreTechMarketMap.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/SalesTechMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/SalesTechMarketMap.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/SecurityIDManagementMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/SecurityIDManagementMarketMap.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/SmallWordMicrobiomeMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/SmallWordMicrobiomeMarketMap.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/SmartCityMarketMap.jpg" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/SmartCityMarketMap.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/SmartHomeMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/SmartHomeMarketMap.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/SmartMoneyTechMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/SmartMoneyTechMarketMap.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/SpaceTechMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/SpaceTechMarketMap.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/SubscriptionEcommerceMarketMap.jpg" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/SubscriptionEcommerceMarketMap.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/SupplyChainLogisticsMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/SupplyChainLogisticsMarketMap.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/SyntheticBiologyMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/SyntheticBiologyMarketMap.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/TravelTechMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/TravelTechMarketMap.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/ViceTechMarketMap.jpg" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/ViceTechMarketMap.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/VitaminMineralMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/VitaminMineralMarketMap.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/WarehouseTechMarketMap.jpg" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/WarehouseTechMarketMap.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/taggedMarketMaps/WearablesMarketMap.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/WearablesMarketMap.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AppBackend/RESTAPI/db.sqlite3" afterPath="$PROJECT_DIR$/AppBackend/RESTAPI/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/Archive.zip" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/Archive.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/KVCbg3.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/img/KVCbg3.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/Archive.zip" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/Archive.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/KVCbg3.png" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/img/KVCbg3.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/competition/comp" afterPath="$PROJECT_DIR$/competition/comp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/GithubGo.py" afterPath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/GithubGo.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/TextSummaryEngine.py" afterPath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/TextSummaryEngine.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/getMarketMap.py" afterPath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/getMarketMap.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/starHistoryforFusionmultiline.py" afterPath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/starHistoryforFusionmultiline.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/views.py" afterPath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AppBackend/RESTAPI/RESTAPI/urls.py" afterPath="$PROJECT_DIR$/AppBackend/RESTAPI/RESTAPI/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/Ghub.html" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/Ghub.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/Headline.html" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/Headline.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/SummaryEngine.html" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/SummaryEngine.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/css/ghub.css" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/css/ghub.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/css/index.css" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/css/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/index.html" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/js/SummaryEngine.js" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/js/SummaryEngine.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/js/ghub.js" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/js/ghub.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/js/index.js" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/js/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/Ghub.html" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/Ghub.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/Headline.html" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/Headline.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/SummaryEngine.html" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/SummaryEngine.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/ghub.css" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/ghub.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/index.css" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/index.html" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/SummaryEngine.js" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/SummaryEngine.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/ghub.js" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/ghub.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/index.js" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Readme.md" afterPath="$PROJECT_DIR$/Readme.md" />
     </list>
     <ignored path="KnowledgeVC.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -287,21 +168,14 @@
       <file leaf-file-name="index.js" pinned="true" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="121" column="58" lean-forward="true" selection-start-line="121" selection-start-column="58" selection-end-line="121" selection-end-column="58" />
+            <state relative-caret-position="365">
+              <caret line="80" column="14" lean-forward="false" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
               <folding>
-                <marker date="1502225409000" expanded="true" signature="1562:1588" ph="..." />
-                <marker date="1502225409000" expanded="true" signature="1562:1589" ph="..." />
-                <marker date="1502225409000" expanded="true" signature="2548:2582" ph="..." />
+                <marker date="1502240201000" expanded="true" signature="1562:1588" ph="..." />
+                <marker date="1502240201000" expanded="true" signature="1562:1589" ph="..." />
+                <marker date="1502240201000" expanded="true" signature="2548:2582" ph="..." />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BeautyTechMarketMap.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/BeautyTechMarketMap.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -315,19 +189,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="true" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="102" column="29" lean-forward="false" selection-start-line="102" selection-start-column="29" selection-end-line="102" selection-end-column="29" />
+            <state relative-caret-position="124">
+              <caret line="29" column="46" lean-forward="false" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
               <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#li#1;n#ul#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#li#2;n#ul#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#li#3;n#ul#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KVCbg3.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/KVCbg3.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -351,17 +231,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ghub.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Ghub.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/Ghub.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-939">
-              <caret line="37" column="144" lean-forward="false" selection-start-line="37" selection-start-column="144" selection-end-line="37" selection-end-column="144" />
+            <state relative-caret-position="357">
+              <caret line="29" column="37" lean-forward="false" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1502238901000" expanded="false" signature="1978:2006" ph="..." />
+                <marker date="1502255659000" expanded="false" signature="1983:2011" ph="..." />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KVCbg6.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/KVCbg6.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -370,16 +257,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1090">
               <caret line="88" column="37" lean-forward="false" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SummaryEngine.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/SummaryEngine.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="68" column="114" lean-forward="false" selection-start-line="68" selection-start-column="114" selection-end-line="68" selection-end-column="114" />
               <folding />
             </state>
           </provider>
@@ -447,13 +324,13 @@
         <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/ghub.js" />
         <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/SummaryEngine.html" />
         <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/Headline.html" />
-        <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/index.js" />
         <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/SummaryEngine.js" />
         <option value="$PROJECT_DIR$/Readme.md" />
         <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/ghub.css" />
-        <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/Ghub.html" />
         <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/css/index.css" />
+        <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/index.js" />
         <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/index.html" />
+        <option value="$PROJECT_DIR$/PhoneGapHeloWorld/www/Ghub.html" />
       </list>
     </option>
   </component>
@@ -1018,18 +895,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/competition/competition/search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/SupplyChainLogisticsMarketMap.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/SmallWordMicrobiomeMarketMap.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1279,35 +1144,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/Ghub.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-939">
-          <caret line="37" column="144" lean-forward="false" selection-start-line="37" selection-start-column="144" selection-end-line="37" selection-end-column="144" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1502238901000" expanded="false" signature="1978:2006" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="121" column="58" lean-forward="true" selection-start-line="121" selection-start-column="58" selection-end-line="121" selection-end-column="58" />
-          <folding>
-            <marker date="1502225409000" expanded="true" signature="1562:1588" ph="..." />
-            <marker date="1502225409000" expanded="true" signature="1562:1589" ph="..." />
-            <marker date="1502225409000" expanded="true" signature="2548:2582" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/css/ghub.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1090">
           <caret line="88" column="37" lean-forward="false" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="37" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="80" column="14" lean-forward="false" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
+          <folding>
+            <marker date="1502240201000" expanded="true" signature="1562:1588" ph="..." />
+            <marker date="1502240201000" expanded="true" signature="1562:1589" ph="..." />
+            <marker date="1502240201000" expanded="true" signature="2548:2582" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1319,16 +1172,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/KVCbg3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/img/KVCbg6.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="102" column="29" lean-forward="false" selection-start-line="102" selection-start-column="29" selection-end-line="102" selection-end-column="29" />
+        <state relative-caret-position="124">
+          <caret line="29" column="46" lean-forward="false" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
           <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#li#1;n#ul#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#li#2;n#ul#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#li#3;n#ul#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhoneGapHeloWorld/www/Ghub.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="29" column="37" lean-forward="false" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1502255659000" expanded="false" signature="1983:2011" ph="..." />
           </folding>
         </state>
       </provider>
