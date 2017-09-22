@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="16e8378e-32d5-4f21-a6a2-9a3eeae8ed77" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/competition/comp" afterPath="$PROJECT_DIR$/competition/comp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/views.py" afterPath="$PROJECT_DIR$/AppBackend/RESTAPI/APIapp/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/js/ghub.js" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/js/ghub.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/js/index.js" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/platforms/browser/www/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/ghub.js" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/ghub.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/index.js" afterPath="$PROJECT_DIR$/PhoneGapHeloWorld/www/js/index.js" />
     </list>
     <ignored path="KnowledgeVC.iws" />
     <ignored path=".idea/workspace.xml" />
