@@ -44,7 +44,7 @@ class topContribFollowerData(APIView):
         print "Post called"
         data = request.data
         fusionData = {}
-        repo = GithubGo.searchRepos(query=data['company'], sort='stars')
+        repo = GithubGo.searchRepos(query=data['company'])
         fusionData['benchmarks'] = starhistorybenchmarks.getStarHistoryBenchmarks()
         fusionData['topContribFollowers'] = topContribsFollowersforFusion.convertData(repo)
 
@@ -68,7 +68,7 @@ class commit52(APIView):
     def post(self, request):
         data = request.data
         fusionData = {}
-        repo = GithubGo.searchRepos(query=data['company'], sort='stars')
+        repo = GithubGo.searchRepos(query=data['company'])
         fusionData['commit52'] = CommitsSetupforFusion.convertData(repo)
         return Response(fusionData)
 
@@ -79,7 +79,7 @@ class starGrowth(APIView):
     def post(self, request):
         data = request.data
         fusionData = {}
-        repo = GithubGo.searchRepos(query=data['company'], sort='stars')
+        repo = GithubGo.searchRepos(query=data['company'])
         fusionData['starshistory'] = starHistoryforFusionmultiline.convertData(repo)
         return Response(fusionData)
 
@@ -90,7 +90,7 @@ class totalStars(APIView):
     def post(self, request):
         data = request.data
         fusionData = {}
-        repo = GithubGo.searchRepos(query=data['company'], sort='stars')
+        repo = GithubGo.searchRepos(query=data['company'])
         fusionData['totalStars'] = totalStarsSetupforFusion.convertData(repo)
         return Response(fusionData)
 

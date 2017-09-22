@@ -82,7 +82,7 @@ var searchApp = angular.module('searchApp', []);
             xhr.ontimeout = function (e) {
               alert("Request timed out.  Try again later")
             };
-                xhr.open('POST', 'https://1c8ac5ae.ngrok.io/api/getMarketMap', true);
+                xhr.open('POST', 'https://93bcd139.ngrok.io/api/getMarketMap', true);
                 xhr.setRequestHeader("Content-Type", "application/json");
                 xhr.send(JSON.stringify({"companyName": company}))
         } ;
@@ -123,7 +123,7 @@ var searchApp = angular.module('searchApp', []);
             };
 
 
-                xhr.open('POST',  "https://1c8ac5ae.ngrok.io/api/summarizerEngine", true);
+                xhr.open('POST',  "https://93bcd139.ngrok.io/api/summarizerEngine", true);
                 xhr.setRequestHeader("Content-Type", "application/json");
                 xhr.send(JSON.stringify({'url': company}));
        }

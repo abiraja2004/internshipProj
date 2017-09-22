@@ -45,7 +45,7 @@ ghubApp.controller('ghubCtrl', ['$scope', '$compile', function($scope, $compile)
 
 });
     var loadspinner = '<div class="mx-auto pt-5" id="loadspinner" ng-hide="loaderBool"><p class="text-center mx-auto align-middle"><i class="fa fa-spinner fa-spin" style="font-size:36px; color:white"></i></p></div>'
-    var backendURL = "http://1c8ac5ae.ngrok.io";
+    var backendURL = "http://3350a7f8.ngrok.io";
     $('.trending-container').append(loadspinner);
     $scope.trendingHide = false;
     // $scope.trendingData = [{"repo":"grab/front-end-guide","description":"📚 Study guide and introduction to the modern front end stack.","stars":8109,"tags":[["development",17],["style",12],["end",25],["study",23]]},{"repo":"wearehive/project-guidelines","description":"A set of best practices for JavaScript projects","stars":6950,"tags":[["pull",11],["style",15],["code",41],["rules",10]]},{"repo":"dexteryy/spellbook-of-modern-webdev","description":"A Big Picture, Thesaurus, and Taxonomy of Modern JavaScript Web Development","stars":7892,"tags":[["npm",20],["return",31],["javascript",40],["libraries",25]]},{"repo":"sdmg15/Best-websites-a-programmer-should-visit","description":":link: Some useful websites for programmers.","stars":18227,"tags":[["development",10],["style",10],["java",37],["science",11]]},{"repo":"shieldfy/API-Security-Checklist","description":"Checklist of the most important security countermeasures when designing, testing, and releasing your API","stars":5471,"tags":[["xml",3],["code",3],["header",6],["entity",4]]}]
@@ -154,7 +154,7 @@ ghubApp.controller('ghubCtrl', ['$scope', '$compile', function($scope, $compile)
 
             function makeRequests() {
 
-                var backendURL = "http://1c8ac5ae.ngrok.io";
+                var backendURL = "http://3350a7f8.ngrok.io";
                 var timestamp = new Date();
                 cache[company]['timestamp'] = timestamp;
 
